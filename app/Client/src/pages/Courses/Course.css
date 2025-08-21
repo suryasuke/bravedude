@@ -316,7 +316,7 @@ font-weight: 500;
   
   }
   .course-tit p{
-    width: 50%;
+    width: auto;
     font-size: 0.8rem;
   }
   #search-cont span{
