@@ -1,0 +1,45 @@
+.AddStudents-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:10% ;
+  height: 100%;
+  padding-bottom: 5%;
+
+}
+
+.ad-std-form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 30%;
+}
+
+
+
+.input-addstd {
+  width: 100%;
+  padding: 12px 10px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  outline: none;
+}
+.ad-std-form.title {
+    font-family: 'poppins' , sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0%;
+}
+@media  screen and (max-width: 768px) {
+  .AddStudents-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 30%;
+  }
+}
+
+

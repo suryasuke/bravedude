@@ -1,0 +1,110 @@
+.contributors-container{
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 9%;
+    justify-content: center;
+   background: linear-gradient(90deg, #fffee4ff, #fcfceeff);
+
+    
+}
+.p-class-scnd-why-desc{
+    width: 60%;
+    margin-bottom: 20px;
+     text-align: center;
+    font-size: 2.8rem;
+  font-weight: 600;
+  font-family: 'poppins',sans-serif;
+  color: rgb(11, 11, 11);
+  margin-top:5px;
+  z-index: 2;
+  margin: 10px auto;
+}
+.head-p-class{
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.p-class-scnd-class{
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: rgb(3, 3, 3);
+  z-index: 2;
+  font-family: 'poppins',sans-serif;
+  margin-top: 0px;
+  width: 60%;
+  
+}
+.p-class-fst{
+  font-size: 1rem;
+  color: rgb(247, 186, 0);
+  z-index: 1;
+  font-family: 'poppins',sans-serif;
+}
+.hr-contact {
+  border: none;              
+  height: 3px;                  
+  background: linear-gradient(
+    to right,
+    transparent,
+    #ffcc00,
+    transparent
+  );                           
+  margin: 20px 0px 10px 0px;              
+  border-radius: 2px;          
+}
+.office-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.office-image {
+  width: 65%;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.carousel-wrapper {
+  width: 65%;
+  margin: 0px auto;
+  text-align: center;
+  background-color: rgba(218, 218, 218, 0.37);
+  padding: 30px 30px;
+  border-radius: 9px;
+}
+
+.carousel-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-caption {
+  margin-top: 12px;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.4;
+  text-align: center;
+  font-family: 'poppins' , sans-serif;
+  font-weight: 500;
+  max-width: 90%;
+  white-space: normal;
+  margin: 5px auto;
+  overflow: hidden;
+  display: -webkit-box;
+ 
+  -webkit-box-orient: vertical;
+}

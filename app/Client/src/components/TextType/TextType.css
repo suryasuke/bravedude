@@ -1,0 +1,20 @@
+.text-type {
+  display: inline-block;
+  white-space: pre-wrap;
+
+}
+
+.text-type__cursor {
+  margin-left: 0.25rem;
+  display: inline-block;
+  opacity: 1;
+  color: black;
+}
+
+.mass-color{
+  color: rgb(0, 96, 122) !important;
+}
+
+.text-type__cursor--hidden {
+  display: none;
+}

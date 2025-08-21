@@ -1,0 +1,159 @@
+.bg-collabrate{
+    width: 90%;
+       font-family: "Poppins", sans-serif;
+    height: 300px;
+    background-color: #d7d7d7;
+    position: relative;
+    padding: 20px 80px;
+    margin-top: 40px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.centered-collab{
+    background-color: #f8f8f8;
+}
+.left-img-collabrate{
+position: absolute;
+left: -2.5%;
+height: 100%;
+top: 0%;
+}
+.right-img-collabrate{
+position: absolute;
+right: -2.5%;
+height: 100%;
+top: 0%;
+}
+.centered-collab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-collab p{
+font-size: 2.5rem;
+font-weight: 500;
+color: rgb(0, 0, 0);
+}
+.collab-input{
+    width: 60%;
+    height: 50px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+    border: 1px solid black;
+  
+     font-weight: 500;
+     font-family: "Poppins", sans-serif;
+}
+.collab-input::placeholder{
+    color: rgb(0, 0, 0);
+    text-align: center;
+     font-weight: 500;
+}
+.collab-input:active ::placeholder{
+display: none;
+}
+.right-collab form button{
+    width: 16%;
+    border-radius: 7px;
+    height: 32%;
+    background-color: rgb(255, 179, 0);
+    border: none;
+       font-family: "Poppins", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+.right-collab form button:hover{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) 1px solid;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.left-collab{
+    width: 45%;
+}
+.right-collab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    gap: 5px;
+    height: 100%;
+}
+.right-collab form{
+display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+.alert-cont-feedback{
+    position: fixed;
+    top: 5%;
+    left:0%;
+    width: 100%;
+}
+.progress{
+    padding: 3px 3px;
+    width: 100%;
+}
+.alert-cont-feedback > .alert-collab{
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .bg-collabrate{
+        flex-direction: column;
+        height: auto;
+        padding: 16px 20px;
+    }
+    .left-collab p{
+font-size: 1.3rem;
+        margin-top: 0px;
+        /* font-weight: 500; */
+        font-weight: 500;
+        color: rgb(3 3 3);
+}
+.left-collab{
+    width: 100%;
+}
+.right-collab{
+    width: 100%;
+}
+.collab-input{
+    width: 80%;
+    margin-bottom: 9px;
+    height: 40px;
+    background-color: rgb(255, 208, 0);
+    color: rgb(0, 0, 0);
+    outline: none;
+    text-align: center;
+    border: none;
+     font-weight: 500;
+     font-family: "Poppins", sans-serif;
+}
+.right-collab form button{
+   padding: 10px 10px;
+   width: unset;
+   text-wrap: wrap;
+    background-color: red;
+    border: none;
+       font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 500;
+}
+}

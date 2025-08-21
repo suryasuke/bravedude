@@ -1,0 +1,81 @@
+.EnrollStudentAuth-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: #f9f9f9;
+}
+
+.form-admin{
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 350px;
+}
+.fs-Auth-header{
+  width: 100%;
+  display: flex;
+  text-align: start;
+  padding: 10px 20px;
+}
+.fs-Auth-header p{
+  font-family: 'poppins' , sans-serif;
+  font-size:1rem;
+  font-weight: 500; 
+}
+
+.input-group {
+  position: relative;
+  margin: 20px 0;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.input-group label {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.3s ease;
+  background: #fff;
+  padding: 0 5px;
+}
+
+.btn-auth{
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-auth:hover {
+  background: #0056b3;
+}
+.form-admin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-admin img{
+    width: 40px;
+    height: 40px;
+}

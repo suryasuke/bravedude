@@ -1,0 +1,418 @@
+.conatiner-contact-act{
+  padding: 20px 15%;
+  display: flex;
+  justify-content: 20%;
+  width: 100%;
+  position: relative;
+
+}
+.reply{
+position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "poppins", sans-serif;
+  align-items: center;
+  font-size: 0.9rem;
+  padding: 30px 10px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  z-index: 99999;
+}
+.left-contact-yellow{
+  width: 50%;position: relative;
+  height: 100%;
+  display: flex;
+  z-index: 6;
+  padding: 15% 40px;
+  
+  flex-direction: column;
+  justify-content: center;
+  
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "poppins" , sans-serif;
+  font-weight: 500;
+}
+.left-contact-yellow h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.right-contact-yellow{
+  width: 50%;
+  height: 100%;
+}
+.contact-container{
+    height: 100%;
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 20%;
+
+}
+.bg-of-contact{
+    z-index: 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.enroll-form{
+   position: relative;
+z-index: 3;
+  background-color: rgba(255, 255, 255, 0.3);
+     backdrop-filter: blur(10px);                /* blur the background behind it */
+  -webkit-backdrop-filter: blur(10px);   
+    margin: auto;
+    width: 70%;
+   padding: 30px 10px;
+    display: flex;
+    border-radius: 9px;
+    flex-direction: column;
+    gap: 10px;
+}
+.enroll-form p{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "poppins" , sans-serif;
+    color: white;
+    padding: 0px 15px;
+    margin-bottom: 0px;
+
+}
+.location-wrapper{
+    width: 100%;
+}
+
+.input-contact{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.443);
+    border: none;
+    color: black;
+    font-weight: 500;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+    font-family: "poppins" , sans-serif;
+    font-weight: 500;
+    font-size: 0.9;
+
+}
+.enroll-form select{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.443);
+    border: none;
+    color: black;
+    font-family: 'poppins' , sans-serif;
+    font-weight: 500;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+}
+.enroll-form select option{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.443);
+    border: none;
+    color: black;
+    font-weight: 500;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+}
+.input-contact::placeholder{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+.location-wrapper{
+    position: relative;
+}
+.suggestions{
+    position: absolute;
+    height: 70px;
+    left: 0;
+    width: 100%;
+    font-family: 'poppins' ,sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 8px;
+   box-shadow: 0 0 10px black;
+    overflow-y: auto;
+    z-index: 3;
+    background-color: white;
+    color: black;
+}
+.suggestion-item{
+  border: 1px solid rgb(0, 89, 185);
+  padding: 7px 7px;
+}
+
+::-webkit-scrollbar {
+  width: 1px;           
+}
+
+::-webkit-scrollbar-track {
+  background: #f8f8f8; /* track background */
+}
+
+
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0056b3; /* darker on hover */
+}
+
+/* Works for Firefox */
+* {
+  scrollbar-width: thin;            /* "auto" or "thin" */
+  scrollbar-color: #000000 transparent; /* thumb color, track color */
+}
+.course-sbmt{
+    width: 35%;
+    padding: 10px 10px;
+    font-family: "poppins" , sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    display: block;       
+  margin: 0 auto; 
+
+
+}
+.hr-contact {
+  border: none;                 /* remove default border */
+  height: 3px;                  /* thickness */
+  background: linear-gradient(
+    to right,
+    transparent,
+    #ff6c4b,
+    transparent
+  );                            /* gradient effect */
+  margin: 0px 0px 10px 0px;               /* spacing */
+  border-radius: 2px;           /* rounded edges */
+}
+.c-u-t-e{
+  font-family: "poppins" , sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+  background-color: #a25900;
+  padding: 40px 30px;
+  z-index: 4;
+}
+.contact-number-container{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+  
+}
+.contact-number-container p{
+  margin-top: 3px;
+}
+.contact-number-container p1{
+  font-size: 0.9rem;
+}
+.number-tit{
+  margin-bottom: 3px;
+  color: rgba(255, 255, 255, 0.816);
+}
+.ctn-value-container{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.icons-contact-left{
+  font-size: 40px;
+  
+}
+.let-us{
+  font-size: 0.8rem;
+}
+.reply-container-enroll{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  z-index: 9999999;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+
+}
+.reply{
+  gap: 10px;
+}
+@media screen and (max-width:768px){
+  .left-contact-yellow {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    display: flex
+;
+    z-index: 6;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+}
+.conatiner-contact-act {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30%;
+  background: radial-gradient(ellipse at bottom, #0b8fb8, #020024 80%); /* galaxy base gradient */
+  justify-content: 20%;
+  width: 100%;
+  gap: 10%;
+  position: relative;
+  overflow: hidden; /* prevent stars from spilling out */
+}
+
+/* Twinkling stars */
+.conatiner-contact-act::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: 
+    radial-gradient(2px 2px at 20% 30%, white, transparent),
+    radial-gradient(1.5px 1.5px at 70% 20%, #b5d9ff, transparent),
+    radial-gradient(1px 1px at 50% 80%, white, transparent),
+    radial-gradient(1.2px 1.2px at 90% 60%, #ffd6ff, transparent),
+    radial-gradient(1.8px 1.8px at 30% 70%, white, transparent),
+    radial-gradient(2px 2px at 10% 90%, #cce0ff, transparent),
+    radial-gradient(1px 1px at 80% 40%, white, transparent);
+  background-repeat: repeat;
+  background-size: 250px 250px;
+  opacity: 0.9;
+  animation: twinkle 3s infinite alternate ease-in-out;
+  z-index: 1;
+}
+
+/* Slow drifting stars */
+.conatiner-contact-act::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: 
+    radial-gradient(1px 1px at 10% 20%, white, transparent),
+    radial-gradient(2px 2px at 60% 70%, #a5c8ff, transparent),
+    radial-gradient(1.5px 1.5px at 80% 90%, white, transparent),
+    radial-gradient(1px 1px at 40% 40%, #ffe0ff, transparent),
+    radial-gradient(1.5px 1.5px at 30% 10%, white, transparent);
+  background-repeat: repeat;
+  background-size: 350px 350px;
+  opacity: 0.6;
+  animation: drift 80s linear infinite;
+  z-index: 1;
+}
+
+/* Extra slow deep stars */
+.conatiner-contact-act .star-layer {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: 
+    radial-gradient(1px 1px at 15% 25%, #fff, transparent),
+    radial-gradient(1.2px 1.2px at 75% 85%, #baffff, transparent),
+    radial-gradient(2px 2px at 45% 15%, #ffffff, transparent);
+  background-repeat: repeat;
+  background-size: 400px 400px;
+  opacity: 0.4;
+  animation: drift-slow 150s linear infinite;
+  z-index: 1;
+}
+
+/* ✨ Fast shooting stars */
+.shooting-star {
+  position: absolute;
+  top: -10px;
+  width: 2px;
+  height: 80px;
+  background: linear-gradient(white, transparent);
+  opacity: 0.8;
+  transform: rotate(45deg);
+  animation: shoot 2s linear infinite;
+}
+
+/* Twinkle animation */
+@keyframes twinkle {
+  from { opacity: 0.5; }
+  to   { opacity: 1; }
+}
+
+/* Drift animations */
+@keyframes drift {
+  from { background-position: 0 0; }
+  to   { background-position: 500px 500px; }
+}
+@keyframes drift-slow {
+  from { background-position: 0 0; }
+  to   { background-position: 800px 800px; }
+}
+
+/* Shooting star animation */
+@keyframes shoot {
+  0%   { transform: translateX(-100px) translateY(-100px) rotate(45deg); opacity: 0; }
+  10%  { opacity: 1; }
+  100% { transform: translateX(100vw) translateY(100vh) rotate(45deg); opacity: 0; }
+}
+
+/* Keep content above stars */
+.enroll-form, .left-contact-yellow, .right-contact-yellow {
+  position: relative;
+  z-index: 3;
+}
+
+.bg-of-contact{
+  display: none;
+}
+.contact-number-container p{
+  font-size: 0.8rem;
+}
+.contact-container {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+.conatiner-contact-act{
+  padding: 20px 10px;
+    display: flex
+;
+    flex-direction: column;
+    padding-top: 30%;
+    background: linear-gradient(135deg, #0b8fb8, #00d4ff);
+
+    justify-content: 20%;
+    width: 100%;
+    gap: 10%;
+    position: relative;
+}
+.enroll-form {
+    position: relative;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin: auto;
+    width: 100%;
+    padding: 30px 10px;
+    display: flex
+;
+    border-radius: 9px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+}

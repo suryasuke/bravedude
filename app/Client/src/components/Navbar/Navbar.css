@@ -1,0 +1,248 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  align-content: space-evenly;
+  align-items: center;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0);
+ border-bottom: 0.5px solid rgba(0,0,0,0.2);
+  color: black;
+  position: fixed;
+  transition: 1s ease-in-out;
+  width: 100%;
+  top: 0;
+  padding-left: 50px;
+ 
+}
+.logo-cont-img{
+  width: 150px;
+  height: 150px;
+}
+  .list ul {
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .p-megamenu .p-menuitem-link:hover .p-menuitem-text {
+  color: rgb(24, 111, 193) !important;
+  font-weight: 500;
+ 
+}
+.p-megamenu{
+  background-color: rgba(255, 255, 255, 0);
+}
+.p-menuitem-link:hover .card{
+
+  background-color: rgba(255, 255, 255, 0);
+}
+.p-megamenu .p-menuitem-link .p-menuitem-text{
+  font-weight: 450;
+    color: #929292;
+}
+.card-container{
+  background-color: rgba(255, 255, 255, 0);
+}
+.p-megamenu-text{
+
+  font-weight: 500;
+}
+
+ .card{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  border: none;
+  background-color: transparent;
+ }
+
+ .scrolled{
+  animation: get 0.5s forwards;
+ }
+.eff-scroll{
+  animation: efx 0.5s forwards ;
+}
+
+@keyframes efx {
+  from{
+opacity: 0 ; 
+    top: -40px;
+  }to{
+ opacity: 1;
+    top : 0 ; 
+  }
+  
+}
+ @keyframes get {
+  from{
+    opacity: 1;
+    top : 0 ; 
+
+  }to{
+    opacity: 0 ; 
+    top: -40px;
+
+  }
+ }
+  
+  
+  .list ul li {
+    display: flex;
+    align-items: center;
+   cursor: none;
+  }
+  
+  .list ul li:hover {
+    color: rgb(190, 74, 180);
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    height: 100%;
+
+  width: 90%;
+  }
+  
+  .left img {
+    width: 100%;
+    height: 60px;
+    margin-left: 10px;
+  }
+  
+ .right{
+  width: 40%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  gap: 20%;
+ }
+ .right button{
+  width: 85px;
+  height: 40px;
+  background-color: rgb(46, 154, 46);
+  color:white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 7px;
+  border: none;
+  margin-top:0px ;
+
+ }
+ .right h3{
+    display: flex;
+    align-items: center;
+    color: #696969;
+ }
+ .a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ }
+.dropdown-section {
+  max-height: 0;
+  overflow: hidden;
+  z-index: 1;
+  transition: max-height 0.5s ease, padding 0.3s ease;
+  background: #f4f4f4;
+  padding: 0 20px;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.dropdown-section.show {
+  max-height: 200px; /* enough space to show content */
+  padding: 20px;
+}
+
+.content {
+  font-size: 1rem;
+  color: #333;
+}
+.right .mobile-right{
+  display: none;
+}
+.menu-icon{
+  display: none;
+}
+@media  screen and (max-width:768px) {
+  .card-container {
+    display: none;
+  }
+  .container{
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 2px solid black;
+    display: flex;
+    height: 80px;
+    padding: 20px 10px;
+    justify-content: space-around;
+  }
+  .right .dashboard{
+    display: none;
+  }
+  .right{
+    color: black;
+    z-index: 999999;
+  }
+  .left img{
+    width: 135px;
+    height: 35px;
+  }
+  .menu-icon{
+   padding-left: 40px;
+    display: flex;
+    justify-content: end;
+  }
+  .menus-mobile{
+    position: absolute;
+    top: 10%;
+    left : 0;
+    border-top: 1px solid black;
+    z-index: 989898;
+    background-color: white;
+    transition: 0.5s ease;
+    width: 100%;
+    
+  }
+
+  .menus-mobile ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+  .menus-mobile ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menus-mobile ul li:hover{
+    color: rgb(190, 74, 180);
+  }
+
+  .right .mobile-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}

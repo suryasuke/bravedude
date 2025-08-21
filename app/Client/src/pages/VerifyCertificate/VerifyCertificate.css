@@ -1,0 +1,104 @@
+.verify-certificate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 4%;
+  background: #f9fafb;
+  font-family: "poppins" , sans-serif;
+  background: linear-gradient(135deg, #005e6b, #04bfb9 , rgb(4, 145, 176) , rgb(32, 113, 243));
+}
+
+.verify-certificate-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  width: 350px;
+  font-family: 'poppins',sans-serif;
+}
+
+.verify-heading {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.g-red { color: #ea4335; }     /* Google Red */
+.g-yellow { color: #fbbc05; }  /* Google Yellow */
+.g-blue { color: #4285f4; }    /* Google Blue */
+.g-green { color: #34a853; }   /* Google Green */
+
+.verify-certificate-input {
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease;
+  font-family: "poppins" , sans-serif;
+}
+
+.verify-certificate-input:focus {
+  border-color: #4285f4;
+  box-shadow: 0 0 4px rgba(66,133,244,0.4);
+}
+
+.verify-certificate-button {
+  background: #009634;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  padding: 12px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  font-family: "poppins",sans-serif;
+}
+
+.verify-certificate-button:hover {
+  background: #ffffff;
+  color: green;
+    border: 1px solid #009634;
+}
+.verify-certificate-input.valid{
+  border: 2px solid #34a853;
+}
+.verify-certificate-input.invalid {
+  border: 2px solid #ea4335;
+  animation: shake 0.3s ease-in-out;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+@media (max-width: 600px) {
+  .verify-certificate-container {
+    padding-top: 18%;
+  }
+  
+  .verify-certificate-form {
+    width: 85%;
+    padding: 20px;
+  }
+  
+  .verify-heading {
+    font-size: 20px;
+  }
+  
+  .verify-certificate-input, .verify-certificate-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
