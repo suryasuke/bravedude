@@ -3,6 +3,8 @@ import './EnrollStudent.css';
 import TextField from '@mui/material/TextField';
 import { useLocation , useNavigate} from 'react-router-dom';
 import { useAuth } from '../../Context/AuthProvider';
+import { Outlet } from "react-router-dom";
+
 
 function EnrollStudent({ children }) {
   const [Auth, SetAuth] = useState({
@@ -46,20 +48,17 @@ const location = useLocation();
     }
   };
 
-  
-  if (isAuthenticated) {
-    if (location.pathname === "/secret-Auth_fes") {
-      return children.type.name === "AddStudents" ? children : null;
-    }
-    if (location.pathname === "/Give-credentials") {
-      return children.type.name === "GiveCred" ? children : null;
-    }
-  }
+if (isAuthenticated) {
+  return <Outlet />;
+}
+
+
 
   return (
     <div className="EnrollStudentAuth-container">
       <div className='fs-Auth-header'>
-           <p>{children.type.name + " " + ">" }</p>
+         <p>{children ? children.type?.name + " >" : ""}</p>
+
       </div>
    
       <div className="feedback-box">
