@@ -1,9 +1,9 @@
 .course-container {
-  padding: 2rem;
+
   background: linear-gradient(90deg, #fffee4ff, #fcfceeff);
   font-family: "Poppins", sans-serif;
   width: 100%;
-  padding-top: 10%;
+ 
 }
 
 .course-title {

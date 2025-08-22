@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: -100px;
-  padding:  9% 20px 0px 80px;
+  padding:  0% 20px 0px 80px;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
 }
@@ -268,12 +268,13 @@ filter: blur(200px);
     padding-left: 0px;
   }
   .nav-links {
-    display: none; /* consider adding a mobile menu */
+    display: none; 
   }
   .hero-left .subtext{
-    font-size: 0.8rem;
-    text-align: center;
-    line-height: 20px;
+            font-size: 0.9rem;
+        text-align: center;
+        line-height: 20px;
+    
   }
   .stats {
     flex-direction: column;

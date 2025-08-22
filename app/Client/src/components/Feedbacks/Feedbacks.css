@@ -144,21 +144,23 @@ border: 1px solid rgba(0, 0, 0, 0.2);
   background: linear-gradient(to left, #f8fafc, rgba(248, 250, 252, 0));
 }
 .feed-card {
-  font-family: "Poppins", sans-serif;
-  background: #ffffff;
-  border-radius: 16px;
-  min-width: 160px;
-  height: auto;
-  max-width: 190px;
-  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.08);
- border: #1e293b;
- border-width: 0.4px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  padding: 20px;
-  margin-bottom: -20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+ font-family: "Poppins", sans-serif;
+        background: #ffffff;
+        border-radius: 16px;
+        min-width: 160px;
+        height: auto;
+        max-width: 190px;
+        /* box-shadow: 0 0px 4px rgba(0, 0, 0, 0.08); */
+        border: 0.5px solid rgba(0, 0, 0, 0.2);
+        /* border: #1e293b; */
+        /* border-width: 0.4px; */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding: 20px;
+        margin-bottom: -20px;
+        display: flex
+;
+        flex-direction: column;
+        justify-content: space-between;
 }
 
 .fst-roll,
