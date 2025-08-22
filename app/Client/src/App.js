@@ -27,7 +27,8 @@ function App() {
     <div className='app'>
       <BrowserRouter>
         <Navbar />
-        <Routes>
+        <div className='content-app'>
+           <Routes>
           <Route path='/' element={<Hero />} />
           <Route path='/about' element={<About />} />
           <Route path='/course' element={<Course />} />
@@ -43,6 +44,8 @@ function App() {
           <Route path='/Enroll-course' element={<Contact />} />
           <Route path='/careers' element={<Careers />} />
         </Routes>
+        </div>
+       
         <LightFooter /> 
       </BrowserRouter>
     </div>
