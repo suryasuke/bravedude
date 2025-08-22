@@ -4,6 +4,7 @@
   color: #1e293b; /* dark slate */
   background: #f8f8f8;
   overflow-x: hidden;
+  padding-top: 8%;
 }
 .hero {
   display: flex;
@@ -268,13 +269,12 @@ filter: blur(200px);
     padding-left: 0px;
   }
   .nav-links {
-    display: none; 
+    display: none; /* consider adding a mobile menu */
   }
   .hero-left .subtext{
-            font-size: 0.9rem;
-        text-align: center;
-        line-height: 20px;
-    
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 20px;
   }
   .stats {
     flex-direction: column;
