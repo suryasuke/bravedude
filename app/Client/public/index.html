@@ -1,10 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <!-- Basic SEO -->
   <meta charset="utf-8" />
   <title>BraveDude Academy | Placement Training, Coding & Career Assistance</title>
-  <meta name="description" content="BraveDude Academy helps students with placement training, coding guidance, interview preparation, and career assistance to achieve their dream jobs." />
+  <meta
+    name="description"
+    content="BraveDude Academy helps students with placement training, coding guidance, interview preparation, and career assistance to achieve their dream jobs."
+  />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
+
+  <!-- Indexing & Robots -->
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.bravedude.com/" />
 
   <!-- Favicon & App -->
   <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
@@ -12,23 +21,74 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
   <!-- Open Graph (for social media) -->
-  <meta property="og:title" content="BraveDude Academy | Placement Training & Career Assistance" />
-  <meta property="og:description" content="Boost your career with BraveDude Academy — coding courses, interview prep, and guaranteed placement training." />
+  <meta
+    property="og:title"
+    content="BraveDude Academy | Placement Training & Career Assistance"
+  />
+  <meta
+    property="og:description"
+    content="Boost your career with BraveDude Academy — coding courses, interview prep, and guaranteed placement training."
+  />
   <meta property="og:image" content="%PUBLIC_URL%/logo512.png" />
   <meta property="og:url" content="https://www.bravedude.com" />
   <meta property="og:type" content="website" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="BraveDude Academy | Placement Training & Career Assistance" />
-  <meta name="twitter:description" content="BraveDude Academy provides placement training, coding guidance, and career assistance for students." />
+  <meta
+    name="twitter:title"
+    content="BraveDude Academy | Placement Training & Career Assistance"
+  />
+  <meta
+    name="twitter:description"
+    content="BraveDude Academy provides placement training, coding guidance, and career assistance for students."
+  />
   <meta name="twitter:image" content="%PUBLIC_URL%/logo512.png" />
 
-  <!-- Keywords (optional, less important today but can help) -->
-  <meta name="keywords" content="BraveDude Academy, placement training, coding academy, career assistance, interview preparation, student jobs, coding guidance" />
+  <!-- Keywords (optional) -->
+  <meta
+    name="keywords"
+    content="BraveDude Academy, placement training, coding academy, career assistance, interview preparation, student jobs, coding guidance"
+  />
 
-  <!-- Fonts (optimized: merged imports instead of duplicates) -->
+  <!-- Author & Language -->
+  <meta name="author" content="BraveDude Academy Team" />
+  <meta name="copyright" content="BraveDude Academy © 2025" />
+  <link rel="alternate" hreflang="en" href="https://www.bravedude.com/" />
+
+  <!-- Fonts (optimized) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@400;700&family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@400;700&family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Structured Data (JSON-LD for rich results) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "BraveDude Academy",
+      "url": "https://www.bravedude.com",
+      "logo": "https://www.bravedude.com/logo512.png",
+      "description": "BraveDude Academy provides placement training, coding guidance, and career assistance for students to achieve their dream jobs.",
+      "sameAs": [
+        "https://www.facebook.com/bravedudeacademy",
+        "https://www.instagram.com/bravedudeacademy",
+        "https://www.linkedin.com/company/bravedudeacademy"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "India"
+      }
+    }
+  </script>
 </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- React bundle will be injected here in build -->
+  </body>
+</html>
