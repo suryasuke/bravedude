@@ -316,7 +316,7 @@ font-weight: 500;
   
   }
   .course-tit p{
-    width: auto;
+    width: 60%;
     font-size: 0.8rem;
   }
   #search-cont span{
@@ -345,10 +345,12 @@ font-weight: 500;
     gap: 20px;
   }
   .course-item-duration{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    color:#555555;
   }
   .course-item-rating{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    color:#4c4c4c;
   }
   .course-badge{
     font-size: 0.9rem;
