@@ -1,7 +1,7 @@
 /* 🌟 GLOBAL */
 .home-container {
-  font-family: 'Poppins', 'Segoe UI', sans-serif; /* Modern clean font */
-  color: #1e293b; /* dark slate */
+  font-family: 'Poppins', sans-serif; 
+  color: #1e293b; 
   background: #f8f8f8;
   overflow-x: hidden;
   padding-top: 8%;
@@ -34,12 +34,20 @@
   margin-bottom: 0px;
 }
 .hero-left h1 span {
+  margin-top: 9px;
   color: #6366f1;
 }
 .hero-left .subtext {
   margin: 24px 0;
   color: #475569;
   font-size: 1.1rem;
+}
+.text-type-bg{
+  background: linear-gradient(90deg,rgb(0, 129, 164) ,rgb(0, 96, 122), rgb(0, 94, 120));
+  border-radius: 9px;
+  padding: 2.5px 10px;
+  margin-top: 4px;
+  font-size: 2.7rem;
 }
 .cta-btn {
   background: linear-gradient(90deg,rgb(0, 129, 164) ,rgb(0, 96, 122), rgb(0, 94, 120));
@@ -254,6 +262,13 @@ filter: blur(200px);
 
 
 }
+.text-type-bg{
+  background: linear-gradient(90deg,rgb(0, 129, 164) ,rgb(0, 96, 122), rgb(0, 94, 120));
+  border-radius: 9px;
+  padding: 2.5px 10px;
+  margin-top: 4px;
+  font-size: 1.8rem;
+}
   .hero-right{
 
     display: none;
@@ -262,11 +277,11 @@ filter: blur(200px);
    padding-top: 45%;
   }
   .hero-left h1 {
-    font-size: 1.8rem;
-    text-align: center;
-    height: fit-content;
-    border: none;
-    padding-left: 0px;
+            font-size: 2rem;
+        text-align: center;
+        height: fit-content;
+        border: none;
+        padding-left: 0px;
   }
   .nav-links {
     display: none; /* consider adding a mobile menu */

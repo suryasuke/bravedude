@@ -23,7 +23,7 @@ function LightFooter() {
 
       
     <section className='Menus'>
-       <h2 className='let-be-part'>#Let be a part of us<span>❤️</span></h2>
+       <p className='let-be-part'>#Let be a part of us<span>❤️</span></p>
        <div className='inner-menu'>
           <ul className='lists'>
         <li onClick={()=>{navigate('/Enroll-course')}}>Contact us</li>
@@ -40,10 +40,10 @@ function LightFooter() {
        </div>
     
        <ul className='lists-row-cons'>
-        <li>Follow us on</li>
+        <li>Contact & Follow us on</li>
         <li><LinkedInIcon/></li>
         <li><InstagramIcon/></li>
-        <li><WhatsAppIcon/></li>
+        <Link to='https://wa.me/8110974040?text=hi%20want%20to%20talk%20about%20the%20courses' style={{textDecoration :'none' , color : 'white'}}><li><WhatsAppIcon/></li></Link>
         <li><LinkedInIcon/></li>
        </ul>
        

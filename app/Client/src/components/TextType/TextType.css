@@ -8,11 +8,11 @@
   margin-left: 0.25rem;
   display: inline-block;
   opacity: 1;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .mass-color{
-  color: rgb(0, 96, 122) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .text-type__cursor--hidden {

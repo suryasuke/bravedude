@@ -10,7 +10,7 @@ function Feedbacks() {
     <div className='feed-container'>
        <div className="feed-container">
         <p className="std-rev">STUDENT REVIEW</p>
-        <h1>Hear from students like you</h1>
+        <h1>Hear from students like you<hr className="hr-contact"/></h1>
   <div className="feed-scroll-wrapper">
  
     <Marquee pauseOnHover={hover} direction="left" speed={15} gradient={false}>

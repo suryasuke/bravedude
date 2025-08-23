@@ -7,7 +7,7 @@ function Why_Us() {
     <div className='why-cnt'>
         <div>
             <p className='p-class-fst-why' >WHY US</p>
-            <p className='p-class-scnd-why'>Why We're the Best Choice for <br></br>Your Learning</p>
+            <p className='p-class-scnd-why'>Why We're the Best Choice for <br></br>Your Learning<hr className="hr-contact"/></p>
         </div>
         <div className='second-why-cont'>
             {

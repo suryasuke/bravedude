@@ -1,0 +1,11 @@
+.college-container{
+    padding: 9% 3.5%;
+    background: linear-gradient(to bottom right, #fbf4dc, #f9f8fa, #fbf4dc);
+}
+
+@media screen and (max-width:768px) {
+    .college-container{
+      padding: 25% 5%;
+    }
+    
+}

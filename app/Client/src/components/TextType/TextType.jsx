@@ -43,7 +43,7 @@ const TextType = ({
   };
 
   const getCurrentTextColor = () => {
-    if (textColors.length === 0) return "rgb(0, 96, 122)";
+    if (textColors.length === 0) return "rgba(255, 255, 255, 1)";
     return textColors[currentTextIndex % textColors.length];
   };
 

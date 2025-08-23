@@ -1,40 +1,37 @@
- 
  const items = [
+       {
+  label: 'Events',
+  icon: 'pi pi-box',
+  items: [
+    [
+      {
+        label: 'Internships',
+        items: [
+          { label: 'Open Positions', url: '/Internships' },
+          { label: 'Apply Now', url: '/Internships' },
+          { label: 'FAQ', url: '' }
+        ]
+      }
+    ]
+  ]
+}
+,
         {
-            label: 'About Us',
-            icon: 'pi pi-box',
-            items: [
-                [
-                    {
-                        label: 'About CEO',
-                        items: [{ label: 'CEO Profile' , url : 'https://suryachronicle.netlify.app'}, { label: 'Vision' }, { label: 'Mission' }]
-
-                    }
-                ],
-                [
-                    {
-                        label: 'About Contributors',
-                        items: [{ label: 'Contributors' , url:'/contributors' }, { label: 'Mentors' }, { label: 'Volunteers' }]
-                    },
-                ],
-            ]
-        },
-        {
-            label: 'Contact',
+            label: 'For colleges',
             icon: 'pi pi-mobile',
             items: [
                 [
                     {
-                        label: 'Instagram',
-                        items: [{ label: 'Follow Us' }, { label: 'DM Us' }]
-                    }
-                ],
-                [
-                    {
-                        label: 'Whatsapp',
-                        items: [{ label: 'Chat with Us' , url :'https://wa.me/8110974040?text=hi%20want%20to%20talk%20about%20the%20courses'
- }]
-                    }
+        label: 'College Events',
+        items: [
+          { label: 'Workshops', url: '/College-event' },
+          { label: 'Training', url: '/College-event' },
+          { label: 'Hands on training', url: '/College-event' },
+          { label: 'Live Projects', url: '/College-event' },
+          { label: 'Contributors', url: '/contributors' },
+          { label: 'Mentors', url: '/College-event' },
+        ]
+      }
                 ],
             ]
         },

@@ -13,7 +13,7 @@ function Popular() {
              <div className='tituko'>
               <div className='tituko-text' style={{zIndex : '2'}}>
 <p  className='p-class-fst'> OUR PROGRAM</p>
-        <p className='p-class-scnd' >Discover Our Premier, Top-Rated <br></br>Learning <SplashText text={"Program"} color={"black"}/></p>
+        <p className='p-class-scnd' >Discover Our Premier, Top-Rated Learning <SplashText text={"Program"} color={"black"}/><hr className="hr-contact"/></p>
               </div>
   
         </div>

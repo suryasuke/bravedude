@@ -5,7 +5,9 @@
   align-content: space-evenly;
   align-items: center;
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(12px);  
+  -webkit-backdrop-filter: blur(12px); 
+ background: rgba(240, 240, 240, 0.33);
  border-bottom: 0.5px solid rgba(0,0,0,0.2);
   color: black;
   position: fixed;
@@ -30,20 +32,23 @@
   }
  
   .p-megamenu .p-menuitem-link:hover .p-menuitem-text {
-  color: rgb(24, 111, 193) !important;
+  color: rgb(227, 178, 0) !important;
   font-weight: 500;
  
 }
 .p-megamenu{
   background-color: rgba(255, 255, 255, 0);
 }
-.p-menuitem-link:hover .card{
+.p-menuitem-link:hover {
 
   background-color: rgba(255, 255, 255, 0);
 }
 .p-megamenu .p-menuitem-link .p-menuitem-text{
   font-weight: 450;
-    color: #929292;
+    color: #000000;
+}
+.p-menuitem:hover{
+  background: transparent;
 }
 .card-container{
   background-color: rgba(255, 255, 255, 0);
@@ -143,7 +148,7 @@ opacity: 0 ;
  .right h3{
     display: flex;
     align-items: center;
-    color: #696969;
+    color: #000000;
  }
  .a{
   display: flex;

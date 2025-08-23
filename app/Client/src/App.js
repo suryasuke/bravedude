@@ -17,6 +17,8 @@ import AddStudents from './pages/AddStudents/AddStudents.jsx';
 import GiveCred from './pages/GiveCredy/GiveCred.jsx';
 import VerifyCertificate from './pages/VerifyCertificate/VerifyCertificate.jsx';
 import Contributors from './pages/Contributors/Contributors.jsx';
+import Events from './pages/Events/Events.jsx';
+import Colleges from './pages/Colleges/Colleges.jsx';
 
 function App() {
   useEffect(() => {
@@ -27,25 +29,22 @@ function App() {
     <div className='app'>
       <BrowserRouter>
         <Navbar />
-        <div className='content-app'>
            <Routes>
           <Route path='/' element={<Hero />} />
           <Route path='/about' element={<About />} />
           <Route path='/course' element={<Course />} />
           <Route path='/verify-certificate' element={<VerifyCertificate />} />
           <Route path='/contributors' element={<Contributors />} />
-
+          <Route path='/Internships' element={<Events/>}/>
+          <Route path='/College-event' element={<Colleges/>}/>
           <Route element={<Authpage />}>
             <Route path='/secret-Auth_fes' element={<AddStudents />} />
             <Route path='/Give-credentials' element={<GiveCred />} />
           </Route>
-
           <Route path='/feedback-share' element={<FeedbackShare />} />
           <Route path='/Enroll-course' element={<Contact />} />
           <Route path='/careers' element={<Careers />} />
-        </Routes>
-        </div>
-       
+          </Routes>
         <LightFooter /> 
       </BrowserRouter>
     </div>

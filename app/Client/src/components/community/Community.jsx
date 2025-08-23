@@ -5,7 +5,7 @@ function Community() {
   return (
     <div className='community-cnt'>
         <p className='p-class-fst-why'>COMMUNITY</p>
-        <p className='p-class-scnd-com' >Join a global movement.</p>
+        <p className='p-class-scnd-com' >Join a global movement.<hr className="hr-contact"/></p>
         <p className='p-class-fst-com'>Our vibrant community produces content, teaches courses, and leads events all over</p>
         <div className='avatars-cnt'>
            {

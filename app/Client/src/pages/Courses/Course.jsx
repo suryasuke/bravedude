@@ -67,14 +67,16 @@ function Course() {
               Available courses <StarIcon style={{ borderRadius: '7px' }} />
             </p>
             <section id="search-cont">
-              <input
-                type="search"
-                placeholder="Search by keyword"
-                className="search-course"
-                
-                onChange={handleSearch}
-                value={SearchCourse}
-                />
+             
+  <input
+    type="search"
+    placeholder="Search by keyword"
+    className="search-course pr-10"
+    onChange={handleSearch}
+    value={SearchCourse}
+  />
+
+
 
             </section>
           </div>

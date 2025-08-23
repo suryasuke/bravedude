@@ -239,6 +239,7 @@ padding: 10px;
   font-weight: 600;
   color: #000000;
   z-index: 2;
+  width: 40%;
   line-height: 20px;
   
 }
@@ -336,6 +337,7 @@ justify-content: space-between;
     font-size: 1.4rem;
     line-height: 30px;
     margin-top: 5px;
+    width: 100%;
   }
   .p-class-fst{
     margin-bottom: 0px;

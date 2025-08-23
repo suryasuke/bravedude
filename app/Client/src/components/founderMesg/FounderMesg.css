@@ -1,0 +1,48 @@
+
+.success-stories {
+  padding: 60px 20px;
+  background-color: #f8f8f8;
+}
+
+.video-xntx {
+  display: flex;
+  flex-wrap: wrap;
+      gap: 100px;
+padding: 10px 10%;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video-container {
+  flex: 1 1 500px;
+  min-height: 280px;
+  max-width: 600px;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.summary-text {
+  flex: 1 1 300px;
+  max-width: 500px;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.summary-text h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #1a73e8;
+}
+
+.summary-text ul {
+  margin-top: 12px;
+  padding-left: 20px;
+}
+
+.summary-text ul li {
+  margin-bottom: 6px;
+}

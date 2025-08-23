@@ -63,8 +63,8 @@ return ()=>{
           <ul className='mobile-list'>
             <li onClick={()=>setMenu(false)}><Link to='/' style={{textDecoration : 'none'}}>Home</Link></li>
             <li onClick={()=>setMenu(false)}><Link to='/careers'  style={{textDecoration : 'none'}}>Careers</Link></li>
-            <li onClick={()=>setMenu(false)}><Link to='/collabrate'  style={{textDecoration : 'none'}}>Collabrate</Link></li>
-            <li onClick={()=>setMenu(false)}><Link to='/contact'  style={{textDecoration : 'none'}}>Contact</Link></li>
+            <li onClick={()=>setMenu(false)}><Link to='/College-event'  style={{textDecoration : 'none'}}>For colleges</Link></li>
+            <li onClick={()=>setMenu(false)}><Link to='/Internships'  style={{textDecoration : 'none'}}>Internships</Link></li>
             <li onClick={()=>setMenu(false)}><Link to='/course'  style={{textDecoration : 'none'}}>Course</Link></li>
               <li onClick={()=>setMenu(false)}><Link to='/feedback-share'  style={{textDecoration : 'none'}}>share feedback</Link></li>
           </ul>

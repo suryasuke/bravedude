@@ -13,6 +13,7 @@ import Whyus from "../../components/whyus/Why_Us";
 import Community from "../../components/community/Community";
 import Collabrate from "../../components/Collabrate/Collabrate";
 import Bravedude from "../../components/Bravedude/Bravedude";
+import FounderMesg from "../../components/founderMesg/FounderMesg";
 function Hero() {
 
 
@@ -52,7 +53,7 @@ function Hero() {
         >
           <h1 className="text-type">
         Helping you become outstanding
-        by Making Tech <TextType 
+        by Making Tech <span className="text-type-bg"><TextType 
   text={data.map((value)=>{
     return value.text
   })}
@@ -62,7 +63,7 @@ function Hero() {
   pauseDuration={2000}
   showCursor={true}
   cursorCharacter="|"
-/>
+/></span>
             </h1>
           <p className="subtext">
             <strong>BraveDude Academy is your gateway to the tech industry.</strong>
@@ -126,12 +127,13 @@ Gain hands-on experience through real-world projects, master in-demand skills, a
         </div>  
         <Popular/>
       <Footer/>
-      <Whyus/> 
+      <Whyus/>
+     
       <Community/>
       <div id="collab">
         <Collabrate/>
       </div>
-      
+    <FounderMesg/>
       <Bravedude/>
     </div>
   );

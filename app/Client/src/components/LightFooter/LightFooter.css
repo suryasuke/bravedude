@@ -11,13 +11,23 @@
  
 }
 
-.Menus h2 {
-  font-size: 2.5rem;
-  font-weight: bold;
+.Menus .let-be-part {
+   font-size: 2.5rem;
+  font-weight: 500;
   margin-bottom: 20px;
-  font-style: italic;
-  color: #c7c7c7;
-  padding: 0px 10px;
+  background: linear-gradient(
+    90deg,
+    #4285f4,  /* Google Blue */
+    #9b72cb,  /* Gemini Purple */
+    #d96570,  /* Pink/Coral */
+    #fbbc05,  /* Yellow/Orange */
+    #34a853   /* Google Green */
+  );
+     -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  background-clip: text;        
+  color: transparent;
+
 }
 .Menus h2 span{
   font-style: normal;
@@ -302,7 +312,7 @@ content: '';
             display: flex
 ;
         flex-direction: row;
-        gap: 20px;
+        gap: 10px;
         font-size: 0.8rem;
   }
   .Menus{

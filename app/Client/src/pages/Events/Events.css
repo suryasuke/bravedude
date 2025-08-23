@@ -1,0 +1,218 @@
+/* Page background */
+.events-page {
+  background: linear-gradient(to bottom right, #fbf4dc, #f9f8fa, #fbf4dc);
+  color: #f5f5f5;
+  font-family: "poppins", sans-serif;
+  min-height: 100vh;
+  padding: 6% 0px;
+  font-family: Arial, sans-serif;
+}
+
+.alert-intern{
+    background-color: rgb(0, 0, 0);
+    color: rgb(230, 164, 0);
+    font-family: 'poppins' , sans-serif;
+    padding: 20px 70px;
+    margin-top: 0px;
+    font-weight: 500;
+
+}
+#current-events{
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+    font-size: 2rem;
+    color: black;
+    font-weight: 500;
+}
+.intern-div{
+  width: 100%;
+ padding: 4% 0px;
+}
+
+
+
+.content-intern-container {
+  font-family: 'poppins' , sans-serif;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0 40px;
+}
+
+.card-intern {
+  font-family: 'poppins' , sans-serif;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 10px 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-intern:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-intern h3 {
+  font-size: 20px;
+  color: #0752b4;
+  font-family: 'poppins' , sans-serif;
+  margin-bottom: 10px;
+  margin-top: 9px;
+}
+
+.card-intern .desc {
+  font-size: 14px;
+  color: #555;
+  font-family: 'poppins' , sans-serif;
+  margin-bottom: 12px;
+}
+
+.card-intern p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #333;
+  font-family: 'poppins' , sans-serif;
+}
+
+.certificate {
+  display: flex;
+  align-items: center;
+  font-family: 'poppins' , sans-serif;
+  gap: 5px;
+}
+
+.verified-icon {
+  color: #4caf50;
+}
+.intern-button{
+padding: 9px 7px;
+    background-color: rgb(255, 196, 0);
+    color: black;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+    font-size: 0.9rem;
+    font-weight: 600;
+
+}
+.intern-button:hover{
+  background-color: transparent;
+  border: 2px solid rgb(255, 196, 0);
+  color: rgb(255, 196, 0);
+}
+.p-class-scnd-intern{
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #000000;
+  z-index: 2;
+  font-family: 'poppins',sans-serif;
+  margin-top: 5px;
+  width: 50%;  
+}
+.p-class-fst-intern{
+  font-size: 1rem;
+  color: rgb(247, 186, 0);
+  font-weight: 500;
+  z-index: 1;
+}
+.intern-prepare{
+  padding: 10px 2.5%;
+}
+.list-intern-prepare{
+  color: #000000;
+  list-style: none;
+}
+.list-intern-prepare li{
+  list-style: none;
+  margin: none;
+}
+.list-intern-prepare ul{
+  padding-left:0px;
+  font-family: 'poppins',sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.list-intern-prepare ul a{
+  text-decoration: none;
+  color: rgb(0, 62, 120);
+  font-weight: 600;
+}
+.faq-section{
+  padding: 10px 2.5%;
+}
+.qn-faq{
+  color: black;
+  margin-bottom: 0px;
+  font-family: 'poppins',sans-serif;
+}
+.ans-faq{
+  color: rgb(0, 138, 25);
+  background-color: rgba(0, 113, 11, 0);
+  width: 80%;
+  padding: 5px 5px;
+  margin-top: 0px;
+  font-family: 'poppins',sans-serif;
+  font-weight: 500;
+}
+.faq-list{
+  padding-left: 0px;
+}
+
+
+@media screen and (max-width:768px){
+  .content-intern-container{
+    padding: 10px 10px;
+  }
+  .events-page {
+  background: linear-gradient(to bottom right, #fbf4dc, #f9f8fa, #fbf4dc);
+  color: #f5f5f5;
+  font-family: "poppins", sans-serif;
+
+  padding: 24% 0px;
+  font-family: Arial, sans-serif;
+}
+.alert-intern{
+    background-color: rgb(0, 0, 0);
+    color: rgb(230, 164, 0);
+    font-family: 'poppins' , sans-serif;
+    padding: 5px 20px;
+    margin-top: 0px;
+    font-weight: 500;
+    font-size: 0.9rem;
+
+}
+.p-class-scnd-intern{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000000;
+  z-index: 2;
+  font-family: 'poppins',sans-serif;
+  margin-top: 5px;
+  width: 100%;  
+}
+.p-class-fst-intern{
+  font-size: 1rem;
+  color: rgb(247, 186, 0);
+  z-index: 1;
+}
+.intern-prepare{
+  padding: 10px 5.5%;
+}
+.faq-section{
+  padding: 10px 5.5%;
+}
+.list-intern-prepare li{
+  list-style: none;
+  font-size: 0.9rem;
+  margin: none;
+}
+.faq-list{
+  font-size: 0.9rem;
+}
+
+}
