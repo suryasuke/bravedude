@@ -15,13 +15,38 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://www.bravedude.com/" />
 
-  <!-- Favicon & App -->
-  <link rel="icon" href="./favicon.png" type="image/x-icon"/>
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!-- Favicons -->
+<link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon.ico/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="%PUBLIC_URL%/favicon.ico/favicon.svg" />
+<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/favicon.ico/apple-touch-icon.png" />
+<link rel="manifest" href="%PUBLIC_URL%/favicon.ico/site.webmanifest" />
+
+  <!-- Extended SEO -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <!-- Geo Tags -->
+  <meta name="geo.region" content="IN" />
+  <meta name="geo.placename" content="Tiruvallur, Tamil Nadu" />
+  <meta name="geo.position" content="13.1433;79.9089" />
+  <meta name="ICBM" content="13.1433, 79.9089" />
+
+  <!-- Keywords -->
+  <meta
+    name="keywords"
+    content="BraveDude Academy, placement training, coding academy, career assistance, interview preparation, student jobs, coding guidance, coding courses in India, software development training, aptitude training, full stack development, MERN stack, Java training, Python training, resume building, career guidance"
+  />
+
+  <!-- Author & Language -->
+  <meta name="author" content="BraveDude Academy Team" />
+  <meta name="copyright" content="BraveDude Academy © 2025" />
+  <link rel="alternate" hreflang="en" href="https://www.bravedude.com/" />
 
   <!-- Open Graph (for social media) -->
+  <meta property="og:site_name" content="BraveDude Academy" />
+  <meta property="og:locale" content="en_IN" />
   <meta
     property="og:title"
     content="BraveDude Academy | Placement Training & Career Assistance"
@@ -30,9 +55,10 @@
     property="og:description"
     content="Boost your career with BraveDude Academy — coding courses, interview prep, and guaranteed placement training."
   />
-  <meta property="og:image" content="%PUBLIC_URL%/favicon.png" />
+  <meta property="og:image" content="/logo512.png" />
   <meta property="og:url" content="https://www.bravedude.com" />
   <meta property="og:type" content="website" />
+  <meta property="og:updated_time" content="2025-08-23T12:00:00+05:30" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -44,20 +70,11 @@
     name="twitter:description"
     content="BraveDude Academy provides placement training, coding guidance, and career assistance for students."
   />
-  <meta name="twitter:image" content="%PUBLIC_URL%/favicon.png" />
+  <meta name="twitter:image" content="/logo512.png" />
+  <meta name="twitter:site" content="@bravedudeacademy" />
+  <meta name="twitter:creator" content="@bravedudeacademy" />
 
-  <!-- Keywords (optional) -->
-  <meta
-    name="keywords"
-    content="BraveDude Academy, placement training, coding academy, career assistance, interview preparation, student jobs, coding guidance"
-  />
-
-  <!-- Author & Language -->
-  <meta name="author" content="BraveDude Academy Team" />
-  <meta name="copyright" content="BraveDude Academy © 2025" />
-  <link rel="alternate" hreflang="en" href="https://www.bravedude.com/" />
-
-  <!-- Fonts (optimized) -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -65,7 +82,7 @@
     rel="stylesheet"
   />
 
-  <!-- Structured Data (JSON-LD for rich results) -->
+  <!-- Structured Data (Organization) -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -85,11 +102,52 @@
       }
     }
   </script>
+
+  <!-- Structured Data (FAQ) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is BraveDude Academy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BraveDude Academy is a career-focused training institute offering placement training, coding courses, interview preparation, and career assistance for students in India."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does BraveDude Academy provide placement assistance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, BraveDude Academy provides end-to-end placement assistance, including aptitude training, coding tests, interview coaching, and resume building."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which courses are offered at BraveDude Academy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BraveDude Academy offers courses in MERN stack development, Java, Python, SQL, aptitude training, and soft skills development."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is BraveDude Academy located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BraveDude Academy is based in Tamil Nadu, India, and also provides online training programs accessible to students across the country."
+          }
+        }
+      ]
+    }
+  </script>
 </head>
 
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!-- React bundle will be injected here in build -->
-  </body>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
 </html>
