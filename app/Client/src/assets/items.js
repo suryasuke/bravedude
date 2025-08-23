@@ -24,7 +24,7 @@
                     {
         label: 'College Events',
         items: [
-          { label: 'Workshops', url: '/College-event' },
+          { label: 'Free Workshops', url: '/College-event' },
           { label: 'Training', url: '/College-event' },
           { label: 'Hands on training', url: '/College-event' },
           { label: 'Live Projects', url: '/College-event' },

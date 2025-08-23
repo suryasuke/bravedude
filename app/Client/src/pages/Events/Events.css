@@ -43,7 +43,7 @@
   font-family: 'poppins' , sans-serif;
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border: 0.9px solid  rgba(247, 183, 9, 0.8);
   padding: 10px 20px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   display: flex;

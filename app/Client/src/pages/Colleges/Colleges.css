@@ -1,11 +1,201 @@
 .college-container{
     padding: 9% 3.5%;
     background: linear-gradient(to bottom right, #fbf4dc, #f9f8fa, #fbf4dc);
+    position: relative;
+}
+.container-of-workshop{
+  display: flex;
+  padding-top: 40px;
+  gap: 20px;
+}
+.workshop-card{
+  background-color: white;
+  border: 3px solid rgb(255, 200, 0);
+  padding: 0px 10px;
+  font-family: 'poppins',sans-serif;
+  text-align: center;
+  font-weight: 500;
+  gap: 5px;
+  display: flex;align-items: center;
+  border-radius: 11px;
+  box-shadow: 0 0 10px solid rgb(255, 174, 0);
+}
+.workshop-card span{
+  background-color: rgb(255, 174, 0);
+padding:  5px 11px;
+display: flex;
+align-items: center;
+justify-content:center;
+border-radius: 52%;
+font-weight: 500;
+color: white;
+}
+.workshop-second-card{
+  width: 90%;
+ padding: 0 10px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid rgb(255, 174, 0);
+  margin: 40px auto;
+  font-size: 1rem;font-family: 'poppins',sans-serif;
+  font-weight: 500;
+  font-style: italic;
+
+}
+.first-workshop{
+  padding-bottom:50px ;
+}
+.rgstr-for-workshop{
+  background-color: rgb(255, 172, 19);
+  color: rgb(255, 255, 255);
+  padding: 10px 10px;
+  outline: none;
+  border: none;
+  font-family: 'poppins' , sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 7px;
+  transition: 0.3s ease ;
+}
+.rgstr-for-workshop:hover{
+  background-color: transparent;
+  border: 2px solid rgb(255, 172, 19);
+  color: rgb(255, 172, 19);
+}
+.workshop-form-container{
+  position:relative;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  top: 0;
+  left: 0;
+}
+.Register-workshop{
+  background-color: white;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 99999;
+  width: 30%;
+  position:fixed;
+  border-radius: 9px;
+  pointer-events: all;
+  font-family: 'poppins', sans-serif;
+  top: 30%;
+  left: 35%;
+  gap: 10px;
+}
+.register-button{
+  width: 100%;
+  background-color: rgb(255, 191, 0);
+  border-radius: 7px;
+  color: rgb(255, 255, 255);
+  font-family: 'poppins' , sans-serif;
+  padding: 10px 10px;
+  border-radius: 7px;
+  font-weight: 500;
+  border: none;
+
+}
+.register-button:hover{
+  background-color: white;
+  color: rgb(255, 172, 19);
+  border: 2px solid rgb(255, 172, 19);
+}
+.form-overlay-workshop{
+  z-index: 9999;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.637);
+  top: 0;
+  left: 0;
+}
+.container-active{
+  z-index: 99;
+  user-select: none;
+  pointer-events: none;
+  overflow-y: unset;
+}
+.head-workshop{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  margin-top: 0px;
+  
+}
+.head-workshop span:hover{
+  cursor: pointer;
+}
+.head-workshop span{
+  color: rgb(255, 191, 0);
+}
+.head-workshop{
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.Register-workshop input{
+  font-family: 'poppins' ,sans-serif;
+  padding: 10px 10px;
+  border-radius: 7px;
+  border: 2px solid rgb(255, 172, 19);
+  outline: none;
+
+}
+.Register-workshop input::placeholder{
+  text-align: center;
 }
 
 @media screen and (max-width:768px) {
     .college-container{
       padding: 25% 5%;
     }
-    
+    .container-of-workshop{
+  display: flex;
+  padding: 10px 5px;
+  flex-direction: column;
+  gap: 20px;
+}
+.workshop-second-card{
+  width: 90%;
+ padding: 0 10px;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid rgb(255, 174, 0);
+  margin: 40px auto;
+  font-size: 0.9rem;font-family: 'poppins',sans-serif;
+  font-weight: 500;
+  font-style: italic;
+
+}
+.rgstr-for-workshop{
+  background-color: rgb(255, 172, 19);
+  color: rgb(255, 255, 255);
+  padding: 8px 8px;
+  outline: none;
+  border: none;
+  font-family: 'poppins' , sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 7px;
+  transition: 0.3s ease ;
+}
+.Register-workshop{
+  background-color: white;
+  
+  display: flex;
+  flex-direction: column;
+  z-index: 99999;
+  width: 90%;
+  position:fixed;
+  border-radius: 9px;
+  pointer-events: all;
+  font-family: 'poppins', sans-serif;
+  top: 30%;
+  left: 5%;
+  gap: 10px;
+}.workshop-card{
+  font-size: 0.9rem;
+  border: 1px solid rgb(255, 172, 19);
+}
 }

@@ -46,3 +46,29 @@ padding: 10px 10%;
 .summary-text ul li {
   margin-bottom: 6px;
 }
+@media screen and (max-width:768px){
+  .success-stories {
+  padding: 0px 20px;
+  background-color: #f8f8f8;
+}
+
+.video-xntx {
+  display: flex;
+  flex-wrap: wrap;
+      gap: 10px;
+padding: 10px 1%;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video-container {
+  border-radius: 0px;
+  margin-top: 10px;
+
+  min-height: 0px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+}

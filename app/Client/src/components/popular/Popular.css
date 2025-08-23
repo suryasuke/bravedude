@@ -116,7 +116,7 @@
   background-color: white;
   border-radius: 8px;
   padding: 2rem;
-border: 0.5px solid rgba(0, 0, 0, 0.1);
+border: 0.5px solid rgba(0, 0, 0, 0.2);
   padding-bottom: 3rem;
   height: auto;
  
@@ -311,7 +311,7 @@ justify-content: space-between;
     padding-top: 30%;
   }
   .popular-cnt{
-    padding: 10px 10px;
+    padding: 30px 10px;
   }
   .popular-head{
     display: flex;
@@ -321,8 +321,9 @@ justify-content: space-between;
   }
   .popular-head h2{
     margin-top: 0px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 0px;
+    font-weight: 500;
   }
   .popular-head{
     display: flex;
@@ -360,7 +361,7 @@ justify-content: space-between;
   }
 
   .course-descriptions {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
         width: 90%;
         text-align: center;
                 margin: 0 auto;

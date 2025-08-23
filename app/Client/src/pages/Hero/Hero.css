@@ -251,14 +251,14 @@ filter: blur(200px);
 
         flex-direction: column-reverse;
         text-align: center;
-        padding: 10% 38px 40px 38px;
+        padding: 10% 38px 5px 38px;
         background-color: #f8f8f8;
 }
   .home-container {
 
   font-family: 'Poppins', 'Segoe UI', sans-serif;
   color: #1e293b; 
-  background: #ffffff;
+  background: #f8f8f8;
 
 
 }
