@@ -1,6 +1,6 @@
 .course-container {
 padding-top: 8%;
-  background: linear-gradient(90deg, #fffee4ff, #fcfceeff);
+ background: linear-gradient(to bottom right, #fbf4dc, #f9f8fa, #fbf4dc);
   font-family: "Poppins", sans-serif;
   width: 100%;
  
@@ -267,23 +267,21 @@ font-weight: 500;
     padding: 1.5rem;
   }
 
-  .course-description {
-            font-size: 0.7rem;
+      .course-description{
+        font-size: 0.8rem;
         width: 100%;
         text-align: start;
-    
-  }
+    }
  
   .course-item-topics {
     width: 100%;
     
   }
-
-  .course-item-topics-cour span {
-    font-size: 0.7rem;
-    padding: 3px 5px;
-    border-radius: 4px;
-  }
+    .course-item-topics-cour span {
+        font-size: 0.8rem;
+        padding: 3px 5px;
+        border-radius: 4px;
+    }
 
   .btn-Enroll-Now {
     width: 120px;
@@ -347,14 +345,6 @@ font-weight: 500;
   }
   .second-card{
     gap: 20px;
-  }
-  .course-item-duration{
-    font-size: 0.7rem;
-    color:#555555;
-  }
-  .course-item-rating{
-    font-size: 0.7rem;
-    color:#4c4c4c;
   }
   .course-badge{
     font-size: 0.9rem;

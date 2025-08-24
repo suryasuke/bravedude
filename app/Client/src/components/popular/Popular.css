@@ -144,17 +144,7 @@ border: 0.5px solid rgba(0, 0, 0, 0.2);
   color: #0f172a;
 }
 
-.course-item-duration,
-.course-item-rating {
-  font-size: 0.95rem;
-  font-family: "Poppins", sans-serif;
-  
-  color: #475569;
-}
-.course-item-duration{
-    color: rgb(85, 84, 84);
-    margin-bottom: 0px;
-}
+
 .course-description{
     width: 70%;
 }
@@ -382,9 +372,7 @@ justify-content: space-between;
   .course-item-topicss span{
     font-size: 0.8rem;
   }
-  .course-item-duration, .course-item-rating{
-    font-size: 0.6rem;
-  }
+  
   .course-item-topicss{
     display: flex;
     flex-direction: row;
