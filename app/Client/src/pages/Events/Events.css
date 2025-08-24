@@ -87,6 +87,8 @@
 
 .verified-icon {
   color: #4caf50;
+  width: 0.9em;
+  height: 0.9em;
 }
 .intern-button{
 padding: 9px 7px;
@@ -214,5 +216,63 @@ padding: 9px 7px;
 .faq-list{
   font-size: 0.9rem;
 }
+.card-intern h3 {
+font-size: 1rem;
+    color: #0752b4;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 9px;
 
+}
+.card-intern {
+    font-family: 'poppins', sans-serif;
+    background: #fff;
+    width: 92%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 0.9px solid rgba(247, 183, 9, 0.8);
+    padding: 10px 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-intern .desc {
+    font-size: 0.8rem;
+    color: #000000;
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 12px;
+}
+.card-intern p {
+    margin: 4px 0;
+    font-size: 0.8rem;
+    color: #000000;
+    font-family: 'poppins', sans-serif;
+}
+.intern-button {
+    padding: 9px 7px;
+    background-color: rgb(255, 196, 0);
+    color: black;
+    border: none;
+    width: 30%;
+    border-radius: 7px;
+    margin: 10px 0px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.ans-faq {
+    color: rgb(0, 138, 25);
+    background-color: rgba(0, 113, 11, 0);
+    width: 100%;
+    padding: 5px 5px;
+    margin-top: 0px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+}
+.verified-icon {
+  color: #4caf50;
+  width: 0.9em;
+  height: 0.9em;
+}
 }
