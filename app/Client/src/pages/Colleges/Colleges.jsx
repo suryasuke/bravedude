@@ -86,7 +86,6 @@ function Colleges() {
       <button  onClick={()=> setForm((prev)=>{
         return !prev
       })} className='rgstr-for-workshop'>Register for your college</button>
-
       </div>
 
     
@@ -102,18 +101,16 @@ function Colleges() {
           </div>
         )
       })
-
     }
         </div>
         <div className='training-points-container'>
           { points_training.map((points)=>{
             return(
                <div className='training-points-card'>
-             <p><CheckCircleIcon/>{' '}{' '}{points}</p>
+             <p><CheckCircleIcon style={{color:'green'}}/>{' '}{' '}{points}</p>
             </div>
             )
           })
-           
           }
         </div>
      </div>
@@ -123,7 +120,7 @@ function Colleges() {
       <p className='p-class-scnd-intern'>Our Mentors<hr className='hr-contact'/></p>
       <div className='mentor-of-college'>
     {
-      mentors.map((mentor,index)=>{
+      mentors.map((mentor)=>{
         return (
           <div className='mentors-card'>
             <img src={mentor.img}/>
