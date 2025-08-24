@@ -4,6 +4,9 @@ import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import workshop from '../../assets/workshop'
 import CancelIcon from '@mui/icons-material/Cancel';
 import { submitData } from '../../API/Workshop'
+import { points_training ,training,mentors} from '../../assets/training'
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 function Colleges() {
 
@@ -79,11 +82,7 @@ function Colleges() {
 
     }
       </div>  
-      <div className='workshop-second-card'>
-        <p>We are offering free workshops exclusively for college students who are eager to learn and grow in the field of technology. These sessions are designed to build a strong foundation, introduce emerging tech concepts, and support students with expert 
-          guidance. Whether you're just starting out or looking to sharpen your skills, our workshops aim to inspire, educate, and empower 
-          the next generation of tech talent — <span style={{color : 'red'}}>all at no cost.</span></p>
-      </div>
+     
       <button  onClick={()=> setForm((prev)=>{
         return !prev
       })} className='rgstr-for-workshop'>Register for your college</button>
@@ -91,13 +90,55 @@ function Colleges() {
       </div>
 
     
-     <div>
+     <div className='training-fr-college'>
         <p className='p-class-fst-intern'>Trainings</p>
         <p className='p-class-scnd-intern'>Providing low cost Placement Tranining for colleges<hr className='hr-contact'/></p>
+        <div  className='training-topics'>
+         {
+      training.map((training)=>{
+        return (
+          <div className='training-card'>
+           <p>{' '}{training}</p>
+          </div>
+        )
+      })
+
+    }
+        </div>
+        <div className='training-points-container'>
+          { points_training.map((points)=>{
+            return(
+               <div className='training-points-card'>
+             <p><CheckCircleIcon/>{' '}{' '}{points}</p>
+            </div>
+            )
+          })
+           
+          }
+        </div>
      </div>
 
+     <div className='mentors'>
+      <p className='p-class-fst-intern'>Mentors</p>
+      <p className='p-class-scnd-intern'>Our Mentors<hr className='hr-contact'/></p>
+      <div className='mentor-of-college'>
+    {
+      mentors.map((mentor,index)=>{
+        return (
+          <div className='mentors-card'>
+            <img src={mentor.img}/>
+            <p><PlayArrowIcon/></p>
+            <div className='NandW'>
+              <p className='mentor-name'>{' '}{mentor.name}</p>
+              <p className='mentor-work'>{mentor.work}</p>
+            </div>
+          </div>
+        )
+      })
+    }
+      </div>  
+      </div>
   </div>
 )
 }
-
 export default Colleges

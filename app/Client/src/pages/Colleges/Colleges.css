@@ -5,7 +5,8 @@
 }
 .container-of-workshop{
   display: flex;
-  padding-top: 40px;
+  padding: 5px;
+  padding-bottom: 40px;
   gap: 20px;
 }
 .workshop-card{
@@ -37,13 +38,16 @@ color: white;
   background-color: white;
   border: 2px solid rgb(255, 174, 0);
   margin: 40px auto;
-  font-size: 1rem;font-family: 'poppins',sans-serif;
-  font-weight: 500;
-  font-style: italic;
+  font-size: 0.9rem;font-family: 'poppins',sans-serif;
+  font-weight: 400;
+  
 
 }
 .first-workshop{
-  padding-bottom:50px ;
+  padding: 10px 10px;
+}
+.training-fr-college{
+  padding: 10px 10px;
 }
 .rgstr-for-workshop{
   background-color: rgb(255, 172, 19);
@@ -59,6 +63,7 @@ color: white;
 }
 .rgstr-for-workshop:hover{
   background-color: transparent;
+  cursor: pointer;
   border: 2px solid rgb(255, 172, 19);
   color: rgb(255, 172, 19);
 }
@@ -99,6 +104,7 @@ color: white;
 }
 .register-button:hover{
   background-color: white;
+  cursor: pointer;
   color: rgb(255, 172, 19);
   border: 2px solid rgb(255, 172, 19);
 }
@@ -145,14 +151,79 @@ color: white;
 .Register-workshop input::placeholder{
   text-align: center;
 }
-
-@media screen and (max-width:768px) {
-    .college-container{
-      padding: 25% 5%;
-    }
-    .container-of-workshop{
+.training-topics{
   display: flex;
+ 
+  gap: 10px;
+}
+.training-card{
+  background-color: white;
+  padding: 5px 5px;
+  text-align: center;
+  border-radius: 9px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'poppins',sans-serif;
+  border: 0.5px solid rgba(0,0,0,0.3);
+}
+.training-points-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 0px;
+}
+.training-points-card{
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  font-family: 'poppins',sans-serif;
+  width: 30%;
+  max-width: auto;
+}
+.training-points-card p{
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.mentors-card img{
+width: 50px;
+border: 2px solid rgb(0, 0, 0);
+height: 50px;
+border-radius: 50%;
+}
+.mentors-card{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.mentors-card p{
+  margin: 0px;
+  font-family: 'poppins',sans-serif;
+  font-weight: 500;
+}
+.mentor-work{
+  font-size: 0.7rem;
+}
+.NandW{
+  background-color: rgb(255, 179, 0);
   padding: 10px 5px;
+  text-align: center;
+  width: 200px;
+}
+.mentor-of-college{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width:768px) {
+
+
+  .college-container{
+      padding: 25% 5%;
+}
+.container-of-workshop{
+  display: flex;
+  padding: 0px 5px 30px 5px;
   flex-direction: column;
   gap: 20px;
 }
@@ -175,7 +246,7 @@ color: white;
   outline: none;
   border: none;
   font-family: 'poppins' , sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500;
   border-radius: 7px;
   transition: 0.3s ease ;
@@ -195,7 +266,38 @@ color: white;
   left: 5%;
   gap: 10px;
 }.workshop-card{
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   border: 1px solid rgb(255, 172, 19);
+}
+.training-topics{
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.training-card{
+  font-size: 0.8rem;
+}
+.training-points-card{
+
+  width: 100%;
+  font-size: 0.8rem
+}
+.mentors-card img{
+width: 35px;
+border: 2px solid rgb(0, 0, 0);
+height: 35px;
+border-radius: 50%;
+}
+.NandW{
+  padding: 5px 5px;
+}
+.mentor-of-college{
+  justify-content: center;
+}
+.mentor-name{
+  font-size: 0.8rem;
+}
+.training-points-container{
+  padding-bottom: 5px;
 }
 }
