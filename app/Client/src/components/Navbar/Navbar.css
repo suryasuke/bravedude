@@ -119,6 +119,10 @@ opacity: 0 ;
     height: 60px;
     margin-left: 10px;
   }
+  .dashboard{
+    font-family: 'poppins',sans-serif;
+    font-size: 1rem;
+  }
   
  .right{
   width: 40%;
@@ -218,6 +222,7 @@ opacity: 0 ;
   }
   .menus-mobile{
     position: absolute;
+    transition: 1s ease;
     top: 11%;
     left : 0;
     border-top: 1px solid black;

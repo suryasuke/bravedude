@@ -158,20 +158,6 @@ padding-top: 8%;
   margin-bottom: 0.5rem;
   color: #002d67ff;
 }
-
-.course-item-duration,
-.course-item-rating {
-  font-size: 0.8rem;
-  font-family: "Poppins", sans-serif;
- 
-  color: #000000ff;
-}
-.course-item-duration{
-    color: rgba(0, 0, 0, 1);
-    margin-bottom: 0px;
-        display: flex;
-}
-
 .course-item-topics {
   display: flex;
   flex-wrap: wrap;
