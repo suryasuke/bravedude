@@ -7,10 +7,25 @@ import { MegaMenu } from 'primereact/megamenu';
 import items from '../../assets/items';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-
+import {motion} from 'framer-motion'
 
 function Navbar() {
- const [menu, setMenu] = useState(false)
+ const [menu, setMenu] = useState(false);
+const [animating, setAnimating] = useState(false);
+
+function handleClick(){
+setAnimating(true);
+
+setTimeout(()=>{
+ setMenu((prev)=>{
+   return !prev
+  }); 
+  setAnimating(false);
+ 
+},200)
+}
+
+
 useEffect(()=>{
 window.scrollTo(0 , 0);
 
@@ -34,6 +49,9 @@ return ()=>{
 
 },[])
 
+
+
+
   return (
     <>
   
@@ -52,13 +70,22 @@ return ()=>{
         </div>
         <div className='right'>
           <Link className='dashboard' to='/' style={{textDecoration : 'none' , color : 'gray'}}><h3> <HomeIcon /> Dashboard</h3></Link>
-          <p className='menu-icon' onClick={()=>setMenu((prev)=>{
-            return !prev;
-          })}> {menu ?  <CloseIcon/>  : <MenuIcon />}</p>
+          <button className=' tgl-btn' > 
+            <span onClick={handleClick} className={`icon-wrapper  ${animating ? 'icon-exit' : 'icon-enter'}`}>
+              {menu ?  <CloseIcon/>  : <MenuIcon />}
+            </span>
+          </button>
         </div>
       </div>
       {
-        menu && <div className='menus-mobile'>
+        menu &&
+        <motion.div
+  initial={{ y: -50, opacity: 0 }}
+  animate={{ y: 80, opacity : 1 }}
+  transition={{ duration: 0.3 }}
+>
+
+             <div className='menus-mobile'>
         <div className={`mobile-menu ${menu ? 'active' : 'inactive'}`}>
           <ul className='mobile-list'>
             <li onClick={()=>setMenu(false)}><Link to='/' style={{textDecoration : 'none'}}>Home</Link></li>
@@ -69,7 +96,9 @@ return ()=>{
               <li onClick={()=>setMenu(false)}><Link to='/feedback-share'  style={{textDecoration : 'none'}}>share feedback</Link></li>
           </ul>
         </div>
-      </div> }
+      </div>
+        </motion.div>
+       }
 
     </>
   );

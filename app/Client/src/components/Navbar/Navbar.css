@@ -131,20 +131,7 @@ opacity: 0 ;
   font-weight: 600;
   gap: 20%;
  }
- .right button{
-  width: 85px;
-  height: 40px;
-  background-color: rgb(46, 154, 46);
-  color:white;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  text-align: center;
-  border-radius: 7px;
-  border: none;
-  margin-top:0px ;
 
- }
  .right h3{
     display: flex;
     align-items: center;
@@ -186,6 +173,10 @@ opacity: 0 ;
 .menu-icon{
   display: none;
 }
+.tgl-btn{
+  display: none;
+}
+
 @media  screen and (max-width:768px) {
   .card-container {
     display: none;
@@ -206,6 +197,32 @@ opacity: 0 ;
     color: black;
     z-index: 999999;
   }
+  
+
+  .icon-exit {
+  transform: rotate(360deg);
+  opacity: 0;
+}
+
+.icon-enter {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.tgl-btn {
+  transition-duration: 2s;
+  cursor: pointer;
+  display: block;
+  border: none;
+  background-color: transparent;
+  user-select: none;
+}
+.icon-wrapper {
+  display: inline-block;
+  transition: transform 1s ease, opacity 0.3s ease;
+}
+
+
   .left img{
     width: 100%;
         height: 22px;
