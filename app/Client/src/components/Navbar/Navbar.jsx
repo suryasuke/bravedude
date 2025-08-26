@@ -83,6 +83,7 @@ return ()=>{
   initial={{ y: -50, opacity: 0 }}
   animate={{ y: 80, opacity : 1 }}
   transition={{ duration: 0.3 }}
+  style={{ position: 'relative', zIndex: 99999 }}
 >
 
              <div className='menus-mobile'>

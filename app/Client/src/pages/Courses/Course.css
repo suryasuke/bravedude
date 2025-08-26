@@ -228,7 +228,8 @@ font-weight: 500;
   left:3%;
   width: 40px;
   height: 40px;
-  z-index: 9999999;
+  z-index: 999999;
+ 
 }
 .active-arrow{
 display: block;
@@ -251,7 +252,7 @@ display: block;
   display: flex;
   flex-direction:column;
   flex-wrap: wrap;   
-  gap: 20px;            
+  gap: 20px;          
   justify-content: center; 
   margin-top: 2rem;
 }
