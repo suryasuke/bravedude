@@ -7,6 +7,8 @@ import { submitData } from '../../API/Workshop'
 import { points_training ,training,mentors} from '../../assets/training'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import FaceIcon from '@mui/icons-material/Face';
+import Face2Icon from '@mui/icons-material/Face2';
 
 function Colleges() {
 
@@ -123,7 +125,7 @@ function Colleges() {
       mentors.map((mentor)=>{
         return (
           <div className='mentors-card'>
-            <img src={mentor.img}/>
+            <p className='face-icon-mentor'>{mentor.gender === 'male' ? <FaceIcon/> : <Face2Icon/>}</p>
             <p><PlayArrowIcon/></p>
             <div className='NandW'>
               <p className='mentor-name'>{' '}{mentor.name}</p>

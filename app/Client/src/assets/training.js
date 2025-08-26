@@ -29,35 +29,43 @@ export const mentors=[
     {
         img:img1,
         name:"Vignesh",
-        work:'AI Trainer'
+        work:'AI Trainer',
+        gender :'male'
     },
     {
         img:img2,
         name:"Surya",
-        work:'PERN Stack Trainer'
+        work:'PERN Stack Trainer',
+        gender : 'male'
+
     },
     {
         img:img3,
         name:"Sathish",
-        work:'Web development Trainer'
+        work:'Web development Trainer',
+         gender : 'male'
     },
     {
         img:img4,
         name:"Arun",
-        work:'Java Trainer'
+        work:'Java Trainer',
+         gender : 'male'
     },
     {
         img:img5,
         name:"Maha",
-        work:'Software Development Trainer'
+        work:'Software Development Trainer',
+         gender : 'female'
     },
     {
         img:img6,
         name:"Gokul",
-        work:'Prompt Engineering Trainer'
+        work:'Prompt Engineering Trainer',
+         gender : 'male'
     },{
         img:img7,
         name:"Keerthana",
-        work:'MERN Stack Development'
+        work:'MERN Stack Development',
+         gender : 'female'
     }
 ]

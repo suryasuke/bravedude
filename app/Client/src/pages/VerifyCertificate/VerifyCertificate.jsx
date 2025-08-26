@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import './VerifyCertificate.css'
 import { checkCertificate } from '../../API/addStudent';
 
@@ -11,6 +11,9 @@ function VerifyCertificate() {
     CI:''
   })
   const [isValid, setIsValid] = useState(null);
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  })
 
   function handleChange(e){
     const {name, value} = e.target;

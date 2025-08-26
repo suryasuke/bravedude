@@ -26,9 +26,9 @@ function FounderMesg() {
 
     <div className="summary-text">
       <h3>From the Founder</h3>
-      <p>“We believe in giving students real-world exposure through hands-on internships. What started as a small initiative is now helping hundreds find their passion and profession.”</p>
-      <p>Our interns have gone on to build startups, land jobs at top companies, and pursue higher education with a clear vision.</p>
-      <ul>
+      <p className='summary-text-desc-li'>“We believe in giving students real-world exposure through hands-on internships. What started as a small initiative is now helping hundreds find their passion and profession.”</p>
+      <p className='summary-text-desc-li'>Our interns have gone on to build startups, land jobs at top companies, and pursue higher education with a clear vision.</p>
+      <ul className='summary-text-desc-li'>
         <li>Over 100+ students trained</li>
         <li>Good placement/internship success rate</li>
         <li>Partnerships with top IT firms and startups</li>

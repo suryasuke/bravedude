@@ -186,12 +186,17 @@ border-radius: 50%;
   gap: 3px;
 }
 .mentors-card p{
-  margin: 0px;
+ 
   font-family: 'poppins',sans-serif;
   font-weight: 500;
 }
 .mentor-work{
   font-size: 0.7rem;
+  margin: 0%;
+}
+.mentor-name{
+
+   margin: 0px;
 }
 .NandW{
   background-color: rgb(255, 179, 0);
@@ -204,6 +209,14 @@ border-radius: 50%;
   gap: 20px;
   flex-wrap: wrap;
 }
+.face-icon-mentor{
+  background-color: rgb(200, 200, 200);
+  color: rgb(0, 0, 0);
+      padding: 6px 7px 1px 7px;
+  border: 1px solid rgba(0, 0, 0, 0.937);
+  border-radius: 50%;
+}
+
 @media screen and (max-width:768px) {
 
 
@@ -279,12 +292,18 @@ border-radius: 50%;
 }
 .NandW{
   padding: 5px 5px;
+  border-radius : 7px;
 }
 .mentor-of-college{
   justify-content: center;
+  gap: 30px;
 }
 .mentor-name{
   font-size: 0.8rem;
+   margin: 0px;
+}
+.mentor-work{
+   margin: 0px;
 }
 .training-points-container{
   padding-bottom: 5px;

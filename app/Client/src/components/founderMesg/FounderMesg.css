@@ -33,14 +33,18 @@ padding: 10px 10%;
 }
 
 .summary-text h3 {
-  font-size: 24px;
-  margin-bottom: 12px;
-  color: #1a73e8;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: #1a73e8;
 }
 
 .summary-text ul {
   margin-top: 12px;
   padding-left: 20px;
+}
+.summary-text-desc-li{
+  font-size: 1rem;
 }
 
 .summary-text ul li {
@@ -50,6 +54,9 @@ padding: 10px 10%;
   .success-stories {
   padding: 0px 20px;
   background-color: #f8f8f8;
+}
+.summary-text-desc-li{
+  font-size: 0.8rem;
 }
 
 .video-xntx {
