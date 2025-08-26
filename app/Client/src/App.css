@@ -13,9 +13,17 @@ html, body, #root {
 
 .app {
   height: 100%;
-
   background-color: #f8f8f8;
-
+}
+.Whatsapp-icon{
+  position: fixed;
+  top: 89%;
+  left: 92%;
+  z-index: 9999999;
+}
+.Whatsapp-icon img{
+  width: 65px;
+  height: 65px;
 }
 .contant-app{
   padding-top: 10%;
@@ -25,6 +33,19 @@ html, body, #root {
 .main-content {
   display: flex;
  flex: 1;
+}
+
+@media screen and (max-width : 768px) {
+  .Whatsapp-icon{
+  position: fixed;
+  top: 89%;
+  left: 82%;
+  z-index: 9999999;
+}
+.Whatsapp-icon img{
+  width: 45px;
+  height: 45px;
+}
 }
 
 

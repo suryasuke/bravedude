@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Feedback from "../../components/Feedbacks/Feedbacks";
 import right from '../../assets/Images/right.png'
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 import TextType from "../../components/TextType/TextType";
@@ -69,7 +70,7 @@ function Hero() {
             <strong>BraveDude Academy is your gateway to the tech industry.</strong>
 Gain hands-on experience through real-world projects, master in-demand skills, and earn industry-recognized certifications. Build, learn, and grow into a confident tech professional.
           </p>
-          <button className="cta-btn">Get Started</button>
+          <Link to='/course'><button className="cta-btn">Get Started</button></Link>
         </motion.div>
 
         <motion.div

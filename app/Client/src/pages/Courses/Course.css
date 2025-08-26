@@ -221,7 +221,20 @@ display:inline-flex ;
 font-size: 1rem;
 color: #000000;
 font-weight: 500;
-
+}
+.up-arrow{
+  position: fixed;
+  top: 80%;
+  left:3%;
+  width: 40px;
+  height: 40px;
+  z-index: 9999999;
+}
+.active-arrow{
+display: block;
+}
+.inactive-arrow{
+  display: none;
 }
 @media (max-width: 768px) {
   .course-container {
@@ -340,7 +353,7 @@ font-weight: 500;
     padding: 5px 5px;
   }
   .course-tit p{
-    width: 55%;
+    width: 60%;
         display: flex
 ;
         justify-content: center;

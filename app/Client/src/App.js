@@ -19,6 +19,7 @@ import VerifyCertificate from './pages/VerifyCertificate/VerifyCertificate.jsx';
 import Contributors from './pages/Contributors/Contributors.jsx';
 import Events from './pages/Events/Events.jsx';
 import Colleges from './pages/Colleges/Colleges.jsx';
+import whatsapp from './assets/Images/whatsapp-icon.svg'
 
 function App() {
   useEffect(() => {
@@ -29,6 +30,9 @@ function App() {
     <div className='app'>
       <BrowserRouter>
         <Navbar />
+        <div className='Whatsapp-icon'>
+         <a href='https://wa.me/8110974040?text=hi%20want%20to%20talk%20about%20the%20courses'><img src={whatsapp}/></a>
+        </div>
            <Routes>
           <Route path='/' element={<Hero />} />
           <Route path='/about' element={<About />} />

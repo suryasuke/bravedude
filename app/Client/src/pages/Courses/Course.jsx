@@ -1,21 +1,42 @@
 import course from '../../assets/Course';
 import BoltIcon from '@mui/icons-material/Bolt';
 import Lottie from 'lottie-react';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import StarIcon from '@mui/icons-material/Star';
 import './Course.css';
 import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import Celebrations from '../../assets/json/Celebration.json';
-import CloseIcon from '@mui/icons-material/Close';
 import sad from '../../assets/json/sad.json'
+import arrow from '../../assets/Images/up_arrow.png'
 
 function Course() {
   const [celebrations, setcelebrations] = useState(true);
   const [topicsColors, setTopicsColors] = useState({});
   const [SearchCourse, setSearchCourse] = useState('');
+  const arrowref = useRef(null);
+  console.log(arrowref)
+
+  function goup(){
+    window.scrollTo({ top:0 , behavior :'smooth'})
+  }
 
   useEffect(() => {
+
+     
+  const handleScroll = () => {
+    if (window.scrollY > 200) {
+      arrowref.current?.classList.add('active-arrow');
+      arrowref.current?.classList.remove('inactive-arrow');
+    } else {
+      arrowref.current?.classList.add('inactive-arrow');
+      arrowref.current?.classList.remove('active-arrow');
+    }
+  };
+
+  window.addEventListener('scroll', handleScroll);
+    handleScroll();
+
     const timer = setTimeout(() => {
       setcelebrations(false);
     }, 5000);
@@ -32,7 +53,10 @@ function Course() {
     });
     setTopicsColors(colors);
 
-    return () => clearTimeout(timer);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('scroll', handleScroll);
+    } 
   }, []);
 
   const navigate = useNavigate();
@@ -61,6 +85,9 @@ function Course() {
       )}
 
       <div className="course-container">
+        
+                 <img src={arrow} onClick={goup} alt='up_arrow' ref={arrowref} className='up-arrow'/>
+
         <div className="course-list">
           <div className="course-tit">
             <p>
@@ -161,4 +188,4 @@ function Course() {
   );
 }
 
-export default React.memo(Course);
+export default Course;
