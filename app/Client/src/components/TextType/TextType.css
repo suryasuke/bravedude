@@ -8,13 +8,22 @@
   margin-left: 0.25rem;
   display: inline-block;
   opacity: 1;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 91, 107);
 }
 
 .mass-color{
-  color: rgb(255, 255, 255) !important;
+  color: rgb(0, 96, 123) !important;
 }
 
 .text-type__cursor--hidden {
   display: none;
+}
+
+@media screen and (max-width:768px) {
+  .mass-color{
+   color :  white !important
+  }
+  .text-type__content{
+    color: white !important;
+  }
 }

@@ -4,7 +4,7 @@
   height: 100px;
   align-content: space-evenly;
   align-items: center;
-  z-index: 999;
+  z-index: 999999;
   backdrop-filter: blur(12px);  
   -webkit-backdrop-filter: blur(12px); 
  background: rgba(240, 240, 240, 0.33);
@@ -14,12 +14,16 @@
   transition: 1s ease-in-out;
   width: 100%;
   top: 0;
+
   padding-left: 50px;
  
 }
 .logo-cont-img{
   width: 150px;
   height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
   .list ul {
     list-style: none;
@@ -183,6 +187,7 @@ opacity: 0 ;
   }
   .container{
     border: none;
+    z-index: 999999;
     background-color: white;
     box-shadow: 0 0 2px solid black;
     display: flex;
