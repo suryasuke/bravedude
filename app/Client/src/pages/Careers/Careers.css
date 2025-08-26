@@ -3,6 +3,7 @@
     height: auto;
     padding-top: 5%;
     font-family : 'poppins' , sans-serif;
+    background: linear-gradient(to bottom right, #fbf4dc, #f9f8fa, #fbf4dc);
 }
 .Careers-container #IMG-container{
 width: 100%;
