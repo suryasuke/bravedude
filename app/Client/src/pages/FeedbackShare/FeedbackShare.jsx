@@ -107,6 +107,7 @@ function FeedbackShare() {
             id='fs-input'
             placeholder="Enter your name"
             onChange={handleChange}
+            max={20}
             required
           />
 
@@ -142,6 +143,7 @@ function FeedbackShare() {
             name="message"
             id='fs-textarea'
             value={formData.message}
+            max={200}
             placeholder="Write your feedback here..."
             onChange={handleChange}
             required
