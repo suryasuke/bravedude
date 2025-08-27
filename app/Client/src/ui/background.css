@@ -139,15 +139,15 @@
     opacity: 0.5;
   }
   .peoples-design{
-     position: absolute;
-        top: 80%;
-        left: 14%;
+        position: absolute;
+        top: 86%;
+        left: 0%;
         background-color: transparent;
         height: auto;
-        width: auto;
+        display: flex;
+        justify-content: center;
+        width: 100%;
         padding: 0px;
-    
-    
 }
 
   .centered-heading {
@@ -176,13 +176,14 @@
   cursor: pointer;
 }
 .centered-heading p {
-                color: rgb(61, 61, 61);
+        color: rgb(61, 61, 61);
         font-size: 1rem;
         width: 100%;
         background: transparent;
         height: 350px;
         text-align: center;
         font-weight: 400;
+        font-size: 0.9rem;
         line-height: 1.5rem;
         background-color: rgb(255 255 255 / 0%);
         padding: 20px 20px;
