@@ -20,6 +20,7 @@ import Contributors from './pages/Contributors/Contributors.jsx';
 import Events from './pages/Events/Events.jsx';
 import Colleges from './pages/Colleges/Colleges.jsx';
 import whatsapp from './assets/Images/whatsapp-icon.svg'
+import Chatbot from './pages/chatbot/chatbot.jsx';
 
 function App() {
   useEffect(() => {
@@ -35,6 +36,7 @@ function App() {
         </div>
            <Routes>
           <Route path='/' element={<Hero />} />
+          <Route path='/chat' element={<Chatbot/>}/>
           <Route path='/about' element={<About />} />
           <Route path='/course' element={<Course />} />
           <Route path='/verify-certificate' element={<VerifyCertificate />} />

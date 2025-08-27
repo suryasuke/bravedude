@@ -91,7 +91,7 @@ Gain hands-on experience through real-world projects, master in-demand skills, a
       <section className="stats">
         <div className="stat"><h1><CountUp
   from={0}
-  to={5000}
+  to={100}
   separator=","
   direction="up"
   duration={1}
@@ -105,10 +105,10 @@ Gain hands-on experience through real-world projects, master in-demand skills, a
   direction="up"
   duration={1}
   className="count-up-text"
-/>M+</h1><p>Digitally Reached</p></div>
+/>K+</h1><p>Digitally Reached</p></div>
         <div className="stat"><h1><CountUp
   from={0}
-  to={47}
+  to={20}
   separator=","
   direction="up"
   duration={1}
@@ -116,7 +116,7 @@ Gain hands-on experience through real-world projects, master in-demand skills, a
 />+</h1><p>Viewers Globally</p></div>
         <div className="stat"><h1><CountUp
   from={0}
-  to={15}
+  to={7}
   separator=","
   direction="up"
   duration={1}

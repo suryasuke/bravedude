@@ -1,12 +1,13 @@
 .btn-feed-sbmt-certification{
-    background-color: green;
+        background-color: green;
     color: white;
     width: 100%;
     border: none;
-    padding: 14px 10px;
+    padding: 9px 5px;
+    border-radius: 7px;
     font-family: 'poppins', sans-serif;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.9rem;
 
 }
 .btn-feed-sbmt-certification:hover{
@@ -15,9 +16,9 @@
     width: 100%;
     border: none;
     border: 2px solid green ;
-    padding: 14px 10px;
+    padding: 9px 5px;
     font-family: 'poppins', sans-serif;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.9rem;
 
 }
