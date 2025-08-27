@@ -9,6 +9,7 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import FaceIcon from '@mui/icons-material/Face';
 import Face2Icon from '@mui/icons-material/Face2';
+import { useNavigate } from 'react-router-dom'
 
 function Colleges() {
 
@@ -19,7 +20,7 @@ function Colleges() {
     F_name:'',
     contact:''
   })
-
+  const navigate = useNavigate();
   function handleClick(e){
    e.preventDefault();
    console.log("clicked the form" , details)
@@ -85,9 +86,7 @@ function Colleges() {
     }
       </div>  
      
-      <button  onClick={()=> setForm((prev)=>{
-        return !prev
-      })} className='rgstr-for-workshop'>Register for your college</button>
+      <button className='rgstr-for-workshop'><a style={{textDecoration:'none' , color : 'inherit'}} href='https://docs.google.com/forms/d/e/1FAIpQLSc8kFHKkm4wNAkIKWnheXx1txFQMTQw1fG3ZWqtkbrzAp5CaQ/viewform?usp=dialog'>Register for your college</a></button>
       </div>
 
     
@@ -109,7 +108,7 @@ function Colleges() {
           { points_training.map((points)=>{
             return(
                <div className='training-points-card'>
-             <p><CheckCircleIcon style={{color:'green'}}/>{' '}{' '}{points}</p>
+             <p><CheckCircleIcon style={{color :'green'}}/>{' '}{' '}{points}</p>
             </div>
             )
           })

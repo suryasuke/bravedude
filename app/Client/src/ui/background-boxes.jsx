@@ -5,6 +5,8 @@ import { setcolor } from '../redux/colorSlice'
 import  { AnimatedTooltip } from "./animated-tooltip.tsx";
 import surya from '../assets/Images/surya.jpg'
 import sathish from '../assets/Images/sathish.jpg'
+import parthi from '../assets/Images/parthi.jpg'
+import vicky from '../assets/Images/vicky.jpg'
 
 const getRandomColor = () => {
   
@@ -24,7 +26,17 @@ const getRandomColor = () => {
   "#9bf6ff", 
   "#a0c4ff",  
   "#bdb2ff",
-  "#ffc6ff" 
+  "#000000ff",
+   "#fed053f8", 
+  "#4cfc66ff",  
+  "#0081f9ff", 
+  "#7b2ff7", 
+  "#fc54a0ff", 
+  "#73ffdaff",
+  "#b05f5fff",  
+  "#b18b5dff", 
+  
+
   ];
   return colors[Math.floor(Math.random() * colors.length)];
 };
@@ -44,32 +56,16 @@ const people = [
   },
   {
     id: 3,
-    name: "Arun Raj",
+    name: "vignesh",
     designation: "Associate Manager",
-    image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+    image: vicky
   },
   {
     id: 4,
-    name: "Emily Davis",
+    name: "Parthi",
     designation: "HR",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
-  },
-  {
-    id: 5,
-    name: "moan kumar",
-    designation: "Business Analyst",
-    image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-  },
-  {
-    id: 6,
-    name: "Selvanavamitha",
-    designation: "Finance Auditor",
-    image:
-      "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
-  },
+    image: parthi
+  }
 ];
 
 export default function BoxesBackground() {
@@ -87,10 +83,11 @@ export default function BoxesBackground() {
         ))}
       </div>
       <div className="centered-heading">
-          <h1><span style={{ color: color , fontFamily : 'poppins'} }>Well Experienced</span><br></br>Our Trainers</h1>
-          <p>We bring extensive industry knowledge and practical expertise, combining years of hands-on 
-            experience with deep understanding of market trends, to deliver effective, real-world learning 
-            that equips learners with the skills, confidence, and problem-solving abilities needed to excel in professional environments.
+          <h1><span style={{ color: color , fontFamily : 'poppins'} }>THANKS TO</span><br></br>OUR AMAZING TEAM</h1>
+          <p> Behind every successful project is a team of passionate, talented, and dedicated individuals.  
+  Our team brings together years of industry expertise, innovative thinking, and hands-on experience,  
+  working tirelessly to deliver real-world solutions that empower learners and create meaningful impact.  
+  Together, we turn ideas into action and challenges into opportunities.
             </p>
            
       </div> 
