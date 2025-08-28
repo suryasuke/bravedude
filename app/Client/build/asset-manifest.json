@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.198cef15.css",
+    "main.js": "/static/js/main.ec260a3f.js",
+    "static/js/453.46dc3e92.chunk.js": "/static/js/453.46dc3e92.chunk.js",
+    "static/media/Avatar3.png": "/static/media/Avatar3.84e0a3c107c9b1afb666.png",
+    "static/media/Avatar4.png": "/static/media/Avatar4.d17a534642739790fbf2.png",
+    "static/media/Avatar1.png": "/static/media/Avatar1.6927c473a87523577e10.png",
+    "static/media/Avatar2.png": "/static/media/Avatar2.0d47df94b49523b42d3b.png",
+    "static/media/career.jpg": "/static/media/career.a40c02d8152804947327.jpg",
+    "static/media/sathish.jpg": "/static/media/sathish.0c337499ed03c5db560a.jpg",
+    "static/media/Avatar5.jpg": "/static/media/Avatar5.65f6f8c3cbcbfecb3f70.jpg",
+    "static/media/InterVariable-Italic.woff2": "/static/media/InterVariable-Italic.e295f70fe3e2df296c7b.woff2",
+    "static/media/logo.png": "/static/media/logo.0e74e2eebc58a934e087.png",
+    "static/media/InterVariable.woff2": "/static/media/InterVariable.a0e477f2f1f9d2376fde.woff2",
+    "static/media/primeicons.svg": "/static/media/primeicons.6ed59f962963a4a73af2.svg",
+    "static/media/Avatar6.jpg": "/static/media/Avatar6.f0c63a2f3225ebd6f414.jpg",
+    "static/media/right.png": "/static/media/right.8eda236cfd6af57473d4.png",
+    "static/media/parthi.jpg": "/static/media/parthi.2a41b242fe9d38494af1.jpg",
+    "static/media/primeicons.eot": "/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
+    "static/media/primeicons.woff": "/static/media/primeicons.8931fda1930c3bd21e96.woff",
+    "static/media/primeicons.ttf": "/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/vicky.jpg": "/static/media/vicky.1dc227f10940f8d216c3.jpg",
+    "static/media/up_arrow.png": "/static/media/up_arrow.27c9a5551732a4fe6097.png",
+    "static/media/primeicons.woff2": "/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "static/media/splash.png": "/static/media/splash.d57ebb0fcfa1278f7aa4.png",
+    "static/media/img7.webp": "/static/media/img7.a8a91b3f8ea896669f70.webp",
+    "static/media/surya.jpg": "/static/media/surya.b3aae2b67164ff688ba1.jpg",
+    "index.html": "/index.html",
+    "static/media/whatsapp-icon.svg": "/static/media/whatsapp-icon.a1c848f0e289bcfdd914db2bc43c5fd6.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.198cef15.css.map": "/static/css/main.198cef15.css.map",
+    "main.ec260a3f.js.map": "/static/js/main.ec260a3f.js.map",
+    "453.46dc3e92.chunk.js.map": "/static/js/453.46dc3e92.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.198cef15.css",
+    "static/js/main.ec260a3f.js"
+  ]
+}

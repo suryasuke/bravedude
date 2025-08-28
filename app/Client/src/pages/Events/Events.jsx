@@ -4,12 +4,17 @@ import intern from "../../assets/interns";
 import VerifiedIcon from '@mui/icons-material/Verified';
 import { Link } from 'react-router-dom'
 import faq from '../../assets/faq'
+import { getComments } from "../../API/Comments";
 
 function Events() {
 
   useEffect(()=>{
-    window.scrollTo(0,0)
+    window.scrollTo(0,0);
+    getComments();
   },[])
+
+
+
   return (
     <div className="events-page">
       <div className="alert-intern">
@@ -150,6 +155,11 @@ function Events() {
   }
   </ul>
 </div>
+    <div className="comments-container">
+      {
+         <p></p>
+      }
+    </div>
 
 
     </div>
