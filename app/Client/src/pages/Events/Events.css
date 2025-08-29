@@ -305,9 +305,12 @@ font-size: 1rem;
 }
 .comments-container{
   width: 100%;
-  margin: 20px 0px;
+  padding: 10px 5.5%;
 }
 .commenter{
   font-size: 0.9rem;
+}
+.comment-card{
+  padding: 0px;
 }
 }
