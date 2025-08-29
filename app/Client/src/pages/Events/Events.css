@@ -78,11 +78,36 @@
   font-family: 'poppins' , sans-serif;
 }
 
+.hr-comment{
+  
+ border: none;
+    height: 2px;
+    background:  #ffcc00;
+    margin: 20px 0px 10px 0px;
+    border-radius: 2px;
+}
 .certificate {
   display: flex;
   align-items: center;
   font-family: 'poppins' , sans-serif;
   gap: 5px;
+}
+.comments-container{
+  padding: 4% 3%;
+ margin: 0 auto;
+}
+.comment-card{
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'poppins',sans-serif;
+  color: black;
+}
+.commenter{
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #ffaa00;
 }
 
 .verified-icon {
@@ -274,5 +299,15 @@ font-size: 1rem;
   color: #4caf50;
   width: 0.9em;
   height: 0.9em;
+}
+.feed-comment{
+  font-size: 0.8rem;
+}
+.comments-container{
+  width: 100%;
+  margin: 20px 0px;
+}
+.commenter{
+  font-size: 0.9rem;
 }
 }

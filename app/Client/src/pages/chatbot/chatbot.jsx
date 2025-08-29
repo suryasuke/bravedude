@@ -10,7 +10,6 @@ function Chatbot() {
   const sendMessage = async () => {
     if (input.trim() === '') return;
 
-    // Add user message
     setMessages([...messages, { text: input, sender: 'user' }]);
     const userInput = input;
     setInput('');

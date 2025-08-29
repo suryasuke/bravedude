@@ -4,13 +4,14 @@ import intern from "../../assets/interns";
 import VerifiedIcon from '@mui/icons-material/Verified';
 import { Link } from 'react-router-dom'
 import faq from '../../assets/faq'
-import { getComments } from "../../API/Comments";
+import comments from '../../assets/comments'
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import Rating from '@mui/material/Rating';
 
 function Events() {
 
   useEffect(()=>{
     window.scrollTo(0,0);
-    getComments();
   },[])
 
 
@@ -156,8 +157,19 @@ function Events() {
   </ul>
 </div>
     <div className="comments-container">
+     <p className="p-class-fst-intern">comments</p>
+  <p className="p-class-scnd-intern">See our internship feedbacks<hr className="hr-contact"/></p>
       {
-         <p></p>
+         comments.map((comment)=>{
+          return(
+            <div className="comment-card"> 
+            <p className="commenter"><AccountCircleIcon/>{comment.name}</p>
+            <p><Rating name="size-small" defaultValue={comment.rating} readOnly /></p>
+            <p className="feed-comment">{comment.feed}<hr className="hr-comment"></hr></p>
+            </div>
+           
+          )
+         })
       }
     </div>
 
