@@ -37,7 +37,7 @@ function Events() {
       <p className="certificate">
         <strong>Certificate:</strong> {intern.certificate ? <VerifiedIcon className="verified-icon" /> : 'No'}
       </p>
-      <Link to='/Enroll-course' ><button className="intern-button">Go</button></Link>
+      <Link to='https://docs.google.com/forms/d/e/1FAIpQLScq4CFM8gZ8RONV4zpXd8QMiKtCIRqz-zFP3bdJexK065jq_g/viewform?usp=dialog' ><button  className="intern-button">Go</button></Link>
     </div>
   ))
 }
