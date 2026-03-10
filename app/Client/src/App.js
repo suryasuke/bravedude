@@ -35,6 +35,7 @@ function App() {
          <a href='https://wa.me/8110974040?text=hi%20want%20to%20talk%20about%20the%20courses'><img src={whatsapp}/></a>
         </div>
            <Routes>
+            
           <Route path='/' element={<Hero />} />
           <Route path='/chat' element={<Chatbot/>}/>
           <Route path='/about' element={<About />} />

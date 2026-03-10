@@ -1,5 +1,5 @@
 import express from 'express';
-import { getStudents } from '../controllers/EnrollController.js'; // make sure to include .js if using ES modules
+import { getStudents } from '../controllers/EnrollController.js';
 import { submitEnroll } from '../controllers/EnrollController.js';
 import { SubmitFeed } from '../controllers/feedcontrol.js';
 

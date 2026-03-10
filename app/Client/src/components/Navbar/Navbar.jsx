@@ -1,4 +1,4 @@
-import React, { useEffect , useState} from 'react';
+import { useEffect , useState} from 'react';
 import './Navbar.css';
 import cv from '../../assets/Images/logo.png';
 import HomeIcon from '@mui/icons-material/Home';

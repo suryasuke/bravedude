@@ -102,9 +102,6 @@ function Course() {
     onChange={handleSearch}
     value={SearchCourse}
   />
-
-
-
             </section>
           </div>
           {(() => {
