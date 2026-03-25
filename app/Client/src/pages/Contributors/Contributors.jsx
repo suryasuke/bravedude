@@ -4,7 +4,7 @@ import ChromaGrid from "../../ui/ChromaGrid";
 import "./Contributors.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img from '../../assets/Images/surya.jpg'
+import img from "../../assets/Images/surya.png";  
 
 
 function Contributors() {

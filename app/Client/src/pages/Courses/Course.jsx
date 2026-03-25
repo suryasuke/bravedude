@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 import React from 'react';
 import Celebrations from '../../assets/json/Celebration.json';
 import sad from '../../assets/json/sad.json'
-import arrow from '../../assets/Images/up_arrow.png'
+import SwipeUpAltIcon from '@mui/icons-material/SwipeUpAlt';
 
 function Course() {
   const [celebrations, setcelebrations] = useState(true);
@@ -86,7 +86,19 @@ function Course() {
 
       <div className="course-container">
         
-                 <img src={arrow} onClick={goup} alt='up_arrow' ref={arrowref} className='up-arrow'/>
+              <SwipeUpAltIcon
+  sx={{
+    height: "20px",
+    width: "20px",
+    color: "#005977",
+    "&:hover": {
+      cursor: "pointer"
+    }
+  }}
+  onClick={goup}
+  ref={arrowref}
+  className="up-arrow"
+/>
 
         <div className="course-list">
           <div className="course-tit">

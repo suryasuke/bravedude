@@ -3,7 +3,7 @@ import "./background.css";
 import { useDispatch, useSelector } from 'react-redux';
 import { setcolor } from '../redux/colorSlice' 
 import  { AnimatedTooltip } from "./animated-tooltip.tsx";
-import surya from '../assets/Images/surya.jpg'
+import surya from '../assets/Images/surya.png'
 import sathish from '../assets/Images/sathish.jpg'
 import parthi from '../assets/Images/parthi.jpg'
 import vicky from '../assets/Images/vicky.jpg'

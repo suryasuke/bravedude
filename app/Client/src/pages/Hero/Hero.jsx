@@ -15,7 +15,6 @@ import Community from "../../components/community/Community";
 import Collabrate from "../../components/Collabrate/Collabrate";
 import Bravedude from "../../components/Bravedude/Bravedude";
 import FounderMesg from "../../components/founderMesg/FounderMesg";
-import Random from '../../components/Random.jsx';
 
 function Hero() {
 
@@ -139,7 +138,7 @@ Gain hands-on experience through real-world projects, master in-demand skills, a
     <FounderMesg/>
       <Bravedude/>
 
-      <Random value={'done'}/>
+
     </div>
   );
 }
