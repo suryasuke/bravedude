@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseURL = 'http://localhost:4000/student'
+const baseURL = 'http://16.171.14.101:4000/student'
 
 export const addstudent = async (data) => {
     console.log(data , "in API");
