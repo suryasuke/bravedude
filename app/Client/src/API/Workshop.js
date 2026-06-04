@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseURL = 'http://16.171.14.101:4000/workshop'
+const baseURL = 'https://api.bravedude.com/workshop'
 
 export const submitData = async (value)=>{
 console.log('value in api' , value)
