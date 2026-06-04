@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseURL = 'http://16.171.14.101:4000/feed'
+const baseURL = 'https://api.bravedude.com/feed'
 
 export const submitFeed = async (value)=>{
 console.log('value in api' , value)
