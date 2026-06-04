@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseURL = 'http://16.171.14.101:4000/student'
+const baseURL = 'https://api.bravedude.com/student'
 
 export const addstudent = async (data) => {
     console.log(data , "in API");
