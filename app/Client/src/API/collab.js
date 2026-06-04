@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseURL = 'http://16.171.14.101:4000/collab'
+const baseURL = 'https://api.bravedude.com/collab'
 
 export const submitCollab = async (data) => {
     console.log(data , "in API");
