@@ -2,7 +2,7 @@ import { db } from "../db/db.js";
 import { sendMail } from "../config/mailer.js";
 import { addStudentToSheet } from '../config/googlesheets.js'
 
-export const getStudents = async (res) => {
+export const getStudents = async (req, res) => {
   try {
     const result = await db.query("SELECT * FROM students_enroll ORDER BY id DESC");
     res.json({ success: true, data: result.rows });
