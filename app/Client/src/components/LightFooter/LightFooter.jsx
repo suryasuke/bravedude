@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 function LightFooter() {
 
-    const [LightControl, setLightControl] = useState(false);
+    const [LightControl, setLightControl] = useState(true);
 
     function handlelight(){
         setLightControl((prev)=>{
